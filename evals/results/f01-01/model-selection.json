@@ -1,0 +1,42 @@
+{
+  "source": "local Codex model catalog models_cache.json (selected non-sensitive metadata only)",
+  "catalog_fetched_at": "2026-11-15T18:03:55.115884Z",
+  "client_version": "0.167.0",
+  "selected_model": {
+    "slug": "gpt-6.1-sol",
+    "supported_reasoning_levels": [
+      {
+        "effort": "low",
+        "description": "Fast responses with lighter reasoning"
+      },
+      {
+        "effort": "medium",
+        "description": "Balances speed and reasoning depth for everyday tasks"
+      },
+      {
+        "effort": "high",
+        "description": "Greater reasoning depth for complex problems"
+      },
+      {
+        "effort": "xhigh",
+        "description": "Extra high reasoning depth for complex problems"
+      },
+      {
+        "effort": "max",
+        "description": "Maximum reasoning depth for the hardest problems"
+      },
+      {
+        "effort": "ultra",
+        "description": "Maximum reasoning with automatic task delegation"
+      }
+    ],
+    "default_reasoning_level": "low"
+  },
+  "requested_effort": "low",
+  "selection_rule": "Lowest advertised effort for explicitly pinned model; stop rather than escalate if rejected.",
+  "effective_model_and_effort": "Not independently verified by catalog metadata; inspect execution events separately.",
+  "official_references": [
+    "https://developers.openai.com/api/docs/guides/reasoning",
+    "https://learn.chatgpt.com/docs/config-file/config-reference"
+  ]
+}

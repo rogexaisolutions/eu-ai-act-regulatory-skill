@@ -1,0 +1,39 @@
+{
+  "scenario": "RR-05",
+  "retrieval_observed": true,
+  "events": [
+    {
+      "query": "",
+      "action": {
+        "type": "other"
+      },
+      "results": []
+    },
+    {
+      "query": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "action": {
+        "type": "open_page",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view1",
+          "snippet": "Total lines: 2265",
+          "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        }
+      ]
+    }
+  ],
+  "note": "Online case. One open_page to official EUR-Lex AI Act URL; returned result metadata listed a GDPR EUR-Lex page, but no separate open_page for GDPR was observed."
+}

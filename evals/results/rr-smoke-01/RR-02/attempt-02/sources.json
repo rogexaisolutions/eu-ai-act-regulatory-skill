@@ -1,0 +1,11 @@
+{
+  "scenario": "RR-02",
+  "profile": "ONLINE",
+  "retrieval_observed": false,
+  "observation": "Configured browser/search plugin enabled; no web_search/open_page events observed.",
+  "assistant_citations": [],
+  "tool_retrieval_events": [],
+  "limitations": "No source retrieval event was observed. Fictional .invalid sources were not verified or treated as real law.",
+  "reviewer_checked_official_source": false,
+  "reviewer_source_urls": []
+}

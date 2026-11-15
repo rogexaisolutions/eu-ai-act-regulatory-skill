@@ -1,0 +1,15 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill read access, inline artifacts, authorized official-source browsing when available; no external mutation. Record actual source access and degradation..
+
+REQUEST
+ANALYZE a recruitment proposal: rank applicants from CVs and automatically reject the bottom half. Explain the decision blockers and safe discovery steps, not a deployment implementation.
+
+SUPPLIED FACTS
+- Spanish employer; applicants in the EU; no vendor selected.
+- CVs contain personal data; no lawful basis, impact assessment or contracts supplied.
+- A recruiter sees only candidates surviving the automatic rejection step.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+None supplied.

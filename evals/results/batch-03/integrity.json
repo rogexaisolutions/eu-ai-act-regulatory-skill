@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-11-15T21:24:30.580010+00:00",
+  "preexisting_files_checked": 217,
+  "changed_preexisting_files": [],
+  "canonical_frozen_hash_match": true,
+  "durable_frozen_copy_match": true,
+  "isolated_copies": {
+    "V1-D01": true,
+    "V1-O01": true,
+    "V1-X01": true
+  },
+  "scope": "All preexisting repository files outside .git and new batch-03 output directory",
+  "preservation_result": "UNCHANGED"
+}

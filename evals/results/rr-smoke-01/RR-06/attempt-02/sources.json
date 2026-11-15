@@ -1,0 +1,229 @@
+{
+  "scenario": "RR-06",
+  "profile": "ONLINE",
+  "retrieval_observed": true,
+  "observation": "Configured browser/search plugin enabled; EUR-Lex web_search/open_page/find events observed.",
+  "assistant_citations": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "claim_context": "EU AI Act legal act; official current-version record"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+      "claim_context": "enacted amending regulation; Article 50(2) transition and Article 113 amendments"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+      "claim_context": "current consolidated AI Act Articles 2 and 50"
+    }
+  ],
+  "tool_retrieval_events": [
+    {
+      "event": "item.started",
+      "query": "",
+      "action": {
+        "type": "other"
+      },
+      "results": []
+    },
+    {
+      "event": "item.completed",
+      "query": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "action": {
+        "type": "open_page",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view0",
+          "snippet": "Total lines: 3292",
+          "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+        }
+      ]
+    },
+    {
+      "event": "item.started",
+      "query": "",
+      "action": {
+        "type": "other"
+      },
+      "results": []
+    },
+    {
+      "event": "item.completed",
+      "query": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+      "action": {
+        "type": "open_page",
+        "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view0",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view1",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX%3A02024R1689-20260727"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view2",
+          "snippet": "Total lines: 3616",
+          "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32024R1689"
+        }
+      ]
+    },
+    {
+      "event": "item.started",
+      "query": "",
+      "action": {
+        "type": "other"
+      },
+      "results": []
+    },
+    {
+      "event": "item.completed",
+      "query": "'Article 50'",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Article 50"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX%3A02024R1689-20260727"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view1",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX%3A02024R1689-20260727"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view2",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view3",
+          "snippet": "Total lines: 3616",
+          "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32024R1689"
+        }
+      ]
+    },
+    {
+      "event": "item.started",
+      "query": "",
+      "action": {
+        "type": "other"
+      },
+      "results": []
+    },
+    {
+      "event": "item.completed",
+      "query": "'This Regulation applies to:'",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "This Regulation applies to:"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn3view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX%3A02024R1689-20260727"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn3view1",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX%3A02024R1689-20260727"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn3view2",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX%3A02024R1689-20260727"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn3view3",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX%3A02024R1689-20260727"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn3view4",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        }
+      ]
+    },
+    {
+      "event": "item.started",
+      "query": "",
+      "action": {
+        "type": "other"
+      },
+      "results": []
+    },
+    {
+      "event": "item.completed",
+      "query": "",
+      "action": {
+        "type": "other"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn4view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX%3A02024R1689-20260727"
+        }
+      ]
+    }
+  ],
+  "limitations": "Tool event capture stores EUR-Lex URLs, result titles/references and search actions, but not complete page bodies. Independent reviewer source check is recorded at round level.",
+  "reviewer_checked_official_source": true,
+  "reviewer_source_urls": [
+    "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+    "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-11-15T21:13:48.271410+00:00",
+  "preexisting_files_checked": 114,
+  "changed_preexisting_files": [],
+  "isolated_skill_hash_match": {
+    "V1-A02": true,
+    "V1-A03": true,
+    "V1-D02": true,
+    "V1-I02": true,
+    "V1-O03": true
+  },
+  "canonical_frozen_hash_match": true,
+  "preservation_result": "UNCHANGED",
+  "scope": "All preexisting repository files except .git; historical results, fixtures, documents and canonical skill included"
+}

@@ -1,0 +1,296 @@
+{
+  "round": "rr-batch-02",
+  "created_utc": "2026-11-15T22:37:12.478608+00:00",
+  "codex_cli_version": "codex-cli 0.169.0-alpha.11.1",
+  "os": "macOS-15.1-arm64-arm-64bit",
+  "repo_commit": "HEAD",
+  "frozen_sha256": {
+    ".agents/skills/rogex-regulatory-assistant/SKILL.md": "15f02d1e312ad555cb0d1a2fd487a07d3ea1a8892bd63a48dfc45c5e519e453a",
+    ".agents/skills/rogex-regulatory-assistant/references/capabilities.md": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+    ".agents/skills/rogex-regulatory-assistant/references/controls.md": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+    ".agents/skills/rogex-regulatory-assistant/references/regulatory-review.md": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+    ".agents/skills/rogex-regulatory-assistant/references/sources.md": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+    ".agents/skills/rogex-regulatory-assistant/references/triage.md": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+    ".agents/skills/rogex-regulatory-assistant/templates/design-review.md": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+    ".agents/skills/rogex-regulatory-assistant/templates/implementation-plan.md": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+    ".agents/skills/rogex-regulatory-assistant/templates/improvement-plan.md": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+    ".agents/skills/rogex-regulatory-assistant/templates/regulatory-review.md": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+    ".agents/skills/rogex-regulatory-assistant/templates/technical-document.md": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da",
+    "evals/regulatory-review/rr_cases_v2.json": "0652d9c619dcfbb3249310a320910159f705ad6d09f6040a8e2bcff496b167d4",
+    "evals/RUN_GUIDE.md": "edeb3be922f9015dd527d8706a4eb704f076955c15b7bbd9020f16e9d0245515",
+    "evals/EVALUATION_POLICY.md": "c72e73271239203f543435bd779a70acae93100368e24a399f62c24364789021",
+    "docs/REGULATORY_REVIEW_SPEC.md": "1ccd2971bdc5bed07a809343eb73bf9ae6891f23913d26148c6f7598c9544e38",
+    "docs/FUNCTIONAL_SPEC_V1.md": "89fcbc4058c6a53eb75ab9438ff1894dbdfdfea5f5f202381c366f7c4f251e5b"
+  },
+  "requested_scenarios": [
+    "RR-01",
+    "RR-04",
+    "RR-05"
+  ],
+  "model_capability_evidence": "MODEL_CAPABILITY_EVIDENCE.json",
+  "permissions": "separate local test workspace per scenario; read-only model sandbox; no mutation authorized",
+  "config_note": "Default user Codex config loaded; browser/search plugin available only for ONLINE scenarios. Exact per-session tool inventory may not be independently enumerable.",
+  "post_run_sha256": {
+    ".agents/skills/rogex-regulatory-assistant/SKILL.md": {
+      "before": "15f02d1e312ad555cb0d1a2fd487a07d3ea1a8892bd63a48dfc45c5e519e453a",
+      "after": "15f02d1e312ad555cb0d1a2fd487a07d3ea1a8892bd63a48dfc45c5e519e453a",
+      "unchanged": true
+    },
+    ".agents/skills/rogex-regulatory-assistant/references/capabilities.md": {
+      "before": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+      "after": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+      "unchanged": true
+    },
+    ".agents/skills/rogex-regulatory-assistant/references/controls.md": {
+      "before": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+      "after": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+      "unchanged": true
+    },
+    ".agents/skills/rogex-regulatory-assistant/references/regulatory-review.md": {
+      "before": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+      "after": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+      "unchanged": true
+    },
+    ".agents/skills/rogex-regulatory-assistant/references/sources.md": {
+      "before": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+      "after": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+      "unchanged": true
+    },
+    ".agents/skills/rogex-regulatory-assistant/references/triage.md": {
+      "before": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+      "after": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+      "unchanged": true
+    },
+    ".agents/skills/rogex-regulatory-assistant/templates/design-review.md": {
+      "before": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+      "after": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+      "unchanged": true
+    },
+    ".agents/skills/rogex-regulatory-assistant/templates/implementation-plan.md": {
+      "before": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+      "after": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+      "unchanged": true
+    },
+    ".agents/skills/rogex-regulatory-assistant/templates/improvement-plan.md": {
+      "before": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+      "after": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+      "unchanged": true
+    },
+    ".agents/skills/rogex-regulatory-assistant/templates/regulatory-review.md": {
+      "before": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+      "after": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+      "unchanged": true
+    },
+    ".agents/skills/rogex-regulatory-assistant/templates/technical-document.md": {
+      "before": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da",
+      "after": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da",
+      "unchanged": true
+    },
+    "evals/regulatory-review/rr_cases_v2.json": {
+      "before": "0652d9c619dcfbb3249310a320910159f705ad6d09f6040a8e2bcff496b167d4",
+      "after": "0652d9c619dcfbb3249310a320910159f705ad6d09f6040a8e2bcff496b167d4",
+      "unchanged": true
+    },
+    "evals/RUN_GUIDE.md": {
+      "before": "edeb3be922f9015dd527d8706a4eb704f076955c15b7bbd9020f16e9d0245515",
+      "after": "edeb3be922f9015dd527d8706a4eb704f076955c15b7bbd9020f16e9d0245515",
+      "unchanged": true
+    },
+    "evals/EVALUATION_POLICY.md": {
+      "before": "c72e73271239203f543435bd779a70acae93100368e24a399f62c24364789021",
+      "after": "c72e73271239203f543435bd779a70acae93100368e24a399f62c24364789021",
+      "unchanged": true
+    },
+    "docs/REGULATORY_REVIEW_SPEC.md": {
+      "before": "1ccd2971bdc5bed07a809343eb73bf9ae6891f23913d26148c6f7598c9544e38",
+      "after": "1ccd2971bdc5bed07a809343eb73bf9ae6891f23913d26148c6f7598c9544e38",
+      "unchanged": true
+    },
+    "docs/FUNCTIONAL_SPEC_V1.md": {
+      "before": "89fcbc4058c6a53eb75ab9438ff1894dbdfdfea5f5f202381c366f7c4f251e5b",
+      "after": "89fcbc4058c6a53eb75ab9438ff1894dbdfdfea5f5f202381c366f7c4f251e5b",
+      "unchanged": true
+    }
+  },
+  "all_frozen_unchanged": true,
+  "post_run_utc": "2026-11-15T22:44:48.427723+00:00",
+  "skill_copy_checks": {
+    "RR-01": {
+      "SKILL.md": {
+        "canonical": "15f02d1e312ad555cb0d1a2fd487a07d3ea1a8892bd63a48dfc45c5e519e453a",
+        "copied": "15f02d1e312ad555cb0d1a2fd487a07d3ea1a8892bd63a48dfc45c5e519e453a",
+        "match": true
+      },
+      "references/capabilities.md": {
+        "canonical": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+        "copied": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+        "match": true
+      },
+      "references/controls.md": {
+        "canonical": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+        "copied": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+        "match": true
+      },
+      "references/regulatory-review.md": {
+        "canonical": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+        "copied": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+        "match": true
+      },
+      "references/sources.md": {
+        "canonical": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+        "copied": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+        "match": true
+      },
+      "references/triage.md": {
+        "canonical": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+        "copied": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+        "match": true
+      },
+      "templates/design-review.md": {
+        "canonical": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+        "copied": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+        "match": true
+      },
+      "templates/implementation-plan.md": {
+        "canonical": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+        "copied": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+        "match": true
+      },
+      "templates/improvement-plan.md": {
+        "canonical": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+        "copied": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+        "match": true
+      },
+      "templates/regulatory-review.md": {
+        "canonical": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+        "copied": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+        "match": true
+      },
+      "templates/technical-document.md": {
+        "canonical": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da",
+        "copied": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da",
+        "match": true
+      }
+    },
+    "RR-04": {
+      "SKILL.md": {
+        "canonical": "15f02d1e312ad555cb0d1a2fd487a07d3ea1a8892bd63a48dfc45c5e519e453a",
+        "copied": "15f02d1e312ad555cb0d1a2fd487a07d3ea1a8892bd63a48dfc45c5e519e453a",
+        "match": true
+      },
+      "references/capabilities.md": {
+        "canonical": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+        "copied": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+        "match": true
+      },
+      "references/controls.md": {
+        "canonical": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+        "copied": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+        "match": true
+      },
+      "references/regulatory-review.md": {
+        "canonical": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+        "copied": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+        "match": true
+      },
+      "references/sources.md": {
+        "canonical": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+        "copied": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+        "match": true
+      },
+      "references/triage.md": {
+        "canonical": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+        "copied": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+        "match": true
+      },
+      "templates/design-review.md": {
+        "canonical": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+        "copied": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+        "match": true
+      },
+      "templates/implementation-plan.md": {
+        "canonical": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+        "copied": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+        "match": true
+      },
+      "templates/improvement-plan.md": {
+        "canonical": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+        "copied": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+        "match": true
+      },
+      "templates/regulatory-review.md": {
+        "canonical": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+        "copied": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+        "match": true
+      },
+      "templates/technical-document.md": {
+        "canonical": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da",
+        "copied": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da",
+        "match": true
+      }
+    },
+    "RR-05": {
+      "SKILL.md": {
+        "canonical": "15f02d1e312ad555cb0d1a2fd487a07d3ea1a8892bd63a48dfc45c5e519e453a",
+        "copied": "15f02d1e312ad555cb0d1a2fd487a07d3ea1a8892bd63a48dfc45c5e519e453a",
+        "match": true
+      },
+      "references/capabilities.md": {
+        "canonical": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+        "copied": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+        "match": true
+      },
+      "references/controls.md": {
+        "canonical": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+        "copied": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+        "match": true
+      },
+      "references/regulatory-review.md": {
+        "canonical": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+        "copied": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+        "match": true
+      },
+      "references/sources.md": {
+        "canonical": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+        "copied": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+        "match": true
+      },
+      "references/triage.md": {
+        "canonical": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+        "copied": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+        "match": true
+      },
+      "templates/design-review.md": {
+        "canonical": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+        "copied": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+        "match": true
+      },
+      "templates/implementation-plan.md": {
+        "canonical": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+        "copied": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+        "match": true
+      },
+      "templates/improvement-plan.md": {
+        "canonical": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+        "copied": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+        "match": true
+      },
+      "templates/regulatory-review.md": {
+        "canonical": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+        "copied": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+        "match": true
+      },
+      "templates/technical-document.md": {
+        "canonical": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da",
+        "copied": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da",
+        "match": true
+      }
+    }
+  },
+  "all_skill_copies_match": true,
+  "notes": [
+    "Effective model and reasoning effort are not emitted in CLI events and remain UNVERIFIED.",
+    "RR-04 used --ignore-user-config and had no web_search/open_page events; a plugin-sync warning prevents claiming complete offline enforcement.",
+    "RR-01 and RR-05 logs show canonical skill reads by absolute path; copied and canonical skill contents match. No claim of complete physical isolation."
+  ]
+}

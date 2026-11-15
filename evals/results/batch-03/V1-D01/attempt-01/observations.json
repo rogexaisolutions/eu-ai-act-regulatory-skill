@@ -1,0 +1,46 @@
+{
+  "case_id": "V1-D01",
+  "setup_valid": true,
+  "skill_load_event_lines": [
+    5
+  ],
+  "session_ids": [
+    "01a1e116-28e5-7022-8a52-a638453876c8"
+  ],
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED: not exposed by captured runtime events",
+  "effective_reasoning_effort": "UNVERIFIED: not exposed by captured runtime events",
+  "requested_profile": "ONLINE",
+  "web_search_requested": "live",
+  "observed_tool_types": [
+    "agent_message",
+    "command_execution",
+    "web_search"
+  ],
+  "shell_commands_observed": [
+    {
+      "event_line": 5,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/SKILL.md'",
+      "exit_code": 0
+    },
+    {
+      "event_line": 7,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/references/{capabilities,triage,controls,sources}.md .agents/skills/rogex-regulatory-assistant/templates/implementation-plan.md'",
+      "exit_code": 0
+    }
+  ],
+  "completed_web_events": 1,
+  "deterministic_checks": [],
+  "isolated_skill_hash_match": true,
+  "extra_workspace_files": [],
+  "response_matches_last_agent_message": true,
+  "action_verification_scope": "All available CLI events retained; no claim of complete hidden host activity. Shell read-only requested but not restricted to a skill-only read allowlist. Remote-plugin startup cannot be independently disabled.",
+  "event_stream_types": [
+    "item.completed",
+    "item.started",
+    "thread.started",
+    "turn.completed",
+    "turn.started"
+  ]
+}

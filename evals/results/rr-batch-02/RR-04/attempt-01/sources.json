@@ -1,0 +1,6 @@
+{
+  "scenario": "RR-04",
+  "retrieval_observed": false,
+  "events": [],
+  "note": "OFFLINE case. No web_search/open_page event observed. --ignore-user-config passed. Stderr contains a failed remote plugin bundle sync; complete network isolation cannot be claimed."
+}

@@ -1,0 +1,12 @@
+{
+  "case_id": "V1-A03",
+  "attempt": "attempt-01",
+  "verdict": "NOT ASSESSED",
+  "setup_valid": false,
+  "observed_error": "Codex in-process app-server initialization: Operation not permitted; no model response",
+  "source_access": "None observed",
+  "effective_model": "UNVERIFIED",
+  "effective_reasoning_effort": "UNVERIFIED",
+  "behavioral_assertions": "NOT ASSESSED; no valid response",
+  "retry": "attempt-02; same requested model/effort, elevated outer host initialization; child read-only sandbox retained"
+}

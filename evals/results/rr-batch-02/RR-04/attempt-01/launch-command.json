@@ -1,0 +1,29 @@
+{
+  "argv": [
+    "codex",
+    "exec",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--json",
+    "--model",
+    "gpt-6.1-sol",
+    "--config",
+    "model_reasoning_effort=\"low\"",
+    "--ignore-user-config",
+    "--sandbox",
+    "read-only",
+    "--cd",
+    "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-batch-02/RR-04/isolated-workspace",
+    "-"
+  ],
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED",
+  "effective_reasoning_effort": "UNVERIFIED",
+  "session": "fresh ephemeral",
+  "sandbox": "read-only",
+  "ignore_user_config": true,
+  "cwd": "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-batch-02/RR-04/isolated-workspace",
+  "packet_sha256": "271aeb59625e8f0f6e7c4d4222957363a0130bc83f2f2fb274e1d7d1d7547b69",
+  "offline_enforcement": "--ignore-user-config used to suppress configured plugins/connectors; actual retrieval attempts will be checked in tool log"
+}

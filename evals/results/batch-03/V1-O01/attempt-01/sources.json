@@ -1,0 +1,13 @@
+{
+  "case_id": "V1-O01",
+  "execution_window_utc": [
+    "2026-11-15T21:22:43.736636+00:00",
+    "2026-11-15T21:23:08.276311+00:00"
+  ],
+  "retrieval_events": [],
+  "observed_source_urls": [],
+  "assistant_response_links": [],
+  "reviewer_sources": [],
+  "reviewer_legal_verification": "NOT PERFORMED",
+  "capture_limit": "Full available tool events and source references/snippets retained; CLI web events do not expose full page bodies. Access is not independent legal validation."
+}

@@ -1,0 +1,60 @@
+{
+  "case_id": "V1-D01",
+  "execution_window_utc": [
+    "2026-11-15T21:21:28.150436+00:00",
+    "2026-11-15T21:22:43.728285+00:00"
+  ],
+  "retrieval_events": [
+    {
+      "event_line": 9,
+      "event": {
+        "id": "exec-ba2a09c7-91e5-4cde-82b5-5022ccdb9833",
+        "type": "web_search",
+        "query": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "action": {
+          "type": "open_page",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn0view0",
+            "snippet": "Total lines: 2265",
+            "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.boe.es",
+            "ref_id": "turn0view1",
+            "snippet": "Total lines: 2859",
+            "title": "BOE-A-2018-16673 Ley Org\u00e1nica 3/2018, de 5 de diciembre, de Protecci\u00f3n de Datos Personales y garant\u00eda de los derechos digitales.",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn0view2",
+            "snippet": "Total lines: 5976",
+            "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          }
+        ]
+      }
+    }
+  ],
+  "observed_source_urls": [
+    "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+  ],
+  "assistant_response_links": [
+    "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+    "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+  ],
+  "reviewer_sources": [],
+  "reviewer_legal_verification": "NOT PERFORMED",
+  "capture_limit": "Full available tool events and source references/snippets retained; CLI web events do not expose full page bodies. Access is not independent legal validation."
+}

@@ -1,0 +1,12 @@
+{
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED_PENDING_SESSION_METADATA",
+  "effective_reasoning_effort": "UNVERIFIED_PENDING_SESSION_METADATA",
+  "environment_profile": "ONLINE",
+  "environment_profile_description": "Skill and inline synthetic artifacts; official-source browsing permitted when available; no mutation.",
+  "session_mode": "fresh_codex_cli_ephemeral",
+  "sandbox": "read-only",
+  "cwd": "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-smoke-01/RR-06/isolated-workspace",
+  "skill_discoverable_path": "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-smoke-01/RR-06/isolated-workspace/.agents/skills/rogex-regulatory-assistant"
+}

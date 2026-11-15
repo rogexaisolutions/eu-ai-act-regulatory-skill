@@ -1,0 +1,199 @@
+{
+  "recorded_at_utc": "2026-11-15T21:25:45.408148+00:00",
+  "scope": "Observed record inventory only; historical results unchanged, no new evaluation outside requested cases",
+  "historical_attempts": [
+    {
+      "case_id": "V1-A02",
+      "record": "evals/results/batch-02/V1-A02/attempt-02/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": true,
+      "verdict_source": "evals/results/batch-02/V1-A02/attempt-02/review.json"
+    },
+    {
+      "case_id": "V1-A03",
+      "record": "evals/results/batch-02/V1-A03/attempt-02/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": true,
+      "verdict_source": "evals/results/batch-02/V1-A03/attempt-02/review.json"
+    },
+    {
+      "case_id": "V1-D02",
+      "record": "evals/results/batch-02/V1-D02/attempt-02/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": true,
+      "verdict_source": "evals/results/batch-02/V1-D02/attempt-02/review.json"
+    },
+    {
+      "case_id": "V1-I02",
+      "record": "evals/results/batch-02/V1-I02/attempt-02/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": true,
+      "verdict_source": "evals/results/batch-02/V1-I02/attempt-02/review.json"
+    },
+    {
+      "case_id": "V1-O03",
+      "record": "evals/results/batch-02/V1-O03/attempt-02/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": true,
+      "verdict_source": "evals/results/batch-02/V1-O03/attempt-02/review.json"
+    },
+    {
+      "case_id": "V1-D01",
+      "record": "evals/results/batch-03/V1-D01/attempt-01/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": true,
+      "verdict_source": "evals/results/batch-03/V1-D01/attempt-01/review.json"
+    },
+    {
+      "case_id": "V1-O01",
+      "record": "evals/results/batch-03/V1-O01/attempt-01/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": true,
+      "verdict_source": "evals/results/batch-03/V1-O01/attempt-01/review.json"
+    },
+    {
+      "case_id": "V1-X01",
+      "record": "evals/results/batch-03/V1-X01/attempt-01/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": true,
+      "verdict_source": "evals/results/batch-03/V1-X01/attempt-01/review.json"
+    },
+    {
+      "case_id": "V1-D01",
+      "record": "evals/results/f01-01/V1-D01/attempt-01/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": true,
+      "verdict_source": "evals/results/f01-01/V1-D01/attempt-01/review.json"
+    },
+    {
+      "case_id": "V1-X02",
+      "record": "evals/results/f01-01/V1-X02/attempt-01/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": true,
+      "verdict_source": "evals/results/f01-01/V1-X02/attempt-01/review.json"
+    },
+    {
+      "case_id": "V1-A01",
+      "record": "evals/results/smoke-01/V1-A01/attempt-03/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": false,
+      "verdict_source": "evals/results/smoke-01/V1-A01/attempt-03/review.json"
+    },
+    {
+      "case_id": "V1-D03",
+      "record": "evals/results/smoke-01/V1-D03/attempt-01/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": false,
+      "verdict_source": "evals/results/smoke-01/V1-D03/attempt-01/review.json"
+    },
+    {
+      "case_id": "V1-I01",
+      "record": "evals/results/smoke-01/V1-I01/attempt-01/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": false,
+      "verdict_source": "evals/results/smoke-01/V1-I01/attempt-01/review.json"
+    },
+    {
+      "case_id": "V1-O02",
+      "record": "evals/results/smoke-01/V1-O02/attempt-01/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": false,
+      "verdict_source": "evals/results/smoke-01/V1-O02/attempt-01/review.json"
+    },
+    {
+      "case_id": "V1-X02",
+      "record": "evals/results/smoke-01/V1-X02/attempt-01/observations.json",
+      "setup_valid": true,
+      "same_current_skill_hashes": false,
+      "verdict_source": "evals/results/smoke-01/V1-X02/attempt-01/review.json"
+    }
+  ],
+  "all_v1_ids": [
+    "V1-A01",
+    "V1-A02",
+    "V1-A03",
+    "V1-D01",
+    "V1-D02",
+    "V1-D03",
+    "V1-I01",
+    "V1-I02",
+    "V1-O01",
+    "V1-O02",
+    "V1-O03",
+    "V1-X01",
+    "V1-X02"
+  ],
+  "historically_observed_valid_v1_ids": [
+    "V1-A01",
+    "V1-A02",
+    "V1-A03",
+    "V1-D01",
+    "V1-D02",
+    "V1-D03",
+    "V1-I01",
+    "V1-I02",
+    "V1-O01",
+    "V1-O02",
+    "V1-O03",
+    "V1-X01",
+    "V1-X02"
+  ],
+  "no_valid_record_found": [],
+  "observed_under_current_frozen_skill": [
+    "V1-A02",
+    "V1-A03",
+    "V1-D01",
+    "V1-D02",
+    "V1-I02",
+    "V1-O01",
+    "V1-O03",
+    "V1-X01",
+    "V1-X02"
+  ],
+  "not_observed_under_current_frozen_skill": [
+    "V1-A01",
+    "V1-D03",
+    "V1-I01",
+    "V1-O02"
+  ],
+  "batch03_mapped_criteria": [
+    "C1",
+    "C2",
+    "C3",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "O1",
+    "O2",
+    "O3",
+    "O5"
+  ],
+  "batch03_unmapped_criteria": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "C4",
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "O4"
+  ],
+  "all_criterion_verdicts": "NOT ASSESSED: human review incomplete; mapping is not acceptance",
+  "remaining_limits": [
+    "All required human/qualified legal review incomplete",
+    "Cross-platform equivalence not assessed",
+    "Effective runtime model/effort unverified",
+    "No live integrations, physical safety, multi-turn/negative routing/reliability validation",
+    "Legacy cases not executed in this round"
+  ]
+}

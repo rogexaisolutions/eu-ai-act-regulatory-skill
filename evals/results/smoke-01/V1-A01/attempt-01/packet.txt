@@ -1,0 +1,15 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill read access, inline artifacts, authorized official-source browsing when available; no external mutation. Record actual source access and degradation..
+
+REQUEST
+ANALYZE this idea and recommend the next decision: a small furniture distributor wants to group repeated internal questions about stock codes. No code exists. Keep the analysis proportionate.
+
+SUPPLIED FACTS
+- Spain; eight warehouse staff; output is an internal suggestion list, not a stock update.
+- Inputs are product codes and redacted free-text questions; staff may accidentally include names.
+- Budget and model vendor are undecided; no external action is permitted.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+None supplied.

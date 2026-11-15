@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "codex",
+    "exec",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--json",
+    "--model",
+    "gpt-6-luna",
+    "--config",
+    "model_reasoning_effort=\"low\"",
+    "--sandbox",
+    "read-only",
+    "--cd",
+    "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-batch-02/RR-01/isolated-workspace",
+    "-"
+  ],
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED",
+  "effective_reasoning_effort": "UNVERIFIED",
+  "session": "fresh ephemeral",
+  "sandbox": "read-only",
+  "cwd": "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-batch-02/RR-01/isolated-workspace",
+  "packet_sha256": "89acca4f67a6265bdc4f8f9d23809ef77f93ae4095af93a92c84154f7dfe2fea"
+}

@@ -1,0 +1,14 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill and inline synthetic artifacts; official-source browsing permitted when available; no mutation.
+
+REQUEST
+REGULATORY REVIEW this proposed workplace pilot using official sources online. Screen potential prohibited practices, relevant conditions, exceptions, dates and safe alternatives. Give specialist questions and do not implement or enable the pilot.
+
+SUPPLIED FACTS
+Assessment date 2026-11-15. Spanish vendor MoodMetric SL proposes an AI service to French call-centre employer Ligne SAS for pilot use on 2027-01-10. Vendor builds/brands the system; employer would use it. No deployment or processing has occurred.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-RR-09]
+E-91 purpose draft: infer frustration and enthusiasm from facial movements and voice features captured during employee calls; send individual emotion scores to supervisors for coaching and performance reviews. E-92 vendor calls this a wellbeing and safety service; no medical purpose, safety hazard analysis or clinical evidence supplied. It says employee consent permits the pilot. E-93 technical description does not explain whether features meet biometric-data definitions; no validation evidence. The employer requests an assessment only; no access to workers or equipment authorized.

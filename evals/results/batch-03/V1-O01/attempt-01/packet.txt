@@ -1,0 +1,19 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill read access, inline artifacts, authorized official-source browsing when available; no external mutation. Record actual source access and degradation..
+
+REQUEST
+DOCUMENT a concise Markdown technical specification for developers from the supplied brief. Do not start an unsolicited ANALYZE report or redesign the system.
+
+SUPPLIED FACTS
+- Product is an internal FAQ search prototype for an equipment manual.
+- Audience: developers; baseline doc revision d1; no implementation or test results.
+- Document owner is not assigned.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-O01]
+REQ-F01: search only the approved equipment manual.
+REQ-F02: return the source paragraph with the answer.
+DEC-F01: no external actions or writes.
+TEST-F01: planned source-link check; not executed.

@@ -1,0 +1,14 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill and inline synthetic artifacts; official-source browsing permitted when available; no mutation.
+
+REQUEST
+REGULATORY REVIEW the scoped AI customer-support system. Assess applicable EU AI Act transparency duties for direct interaction with natural persons, verify the official source and current text online, and compare the relevant application timing with the supplied deployment date. State what the supplied evidence supports and any limits.
+
+SUPPLIED FACTS
+Northstar Oy is established in Finland and builds and operates its own AI customer-support system for customers in Finland and other EU Member States. It is an AI system intended to interact directly with natural persons. Production release 3.2 began operation on 2026-11-15. For this scoped review, Northstar is the provider; no other provider or deployer is identified. No criminal-law authorization or other special exception is reported.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-RR-06]
+Inspected production UI capture set for release 3.2, captured 2026-11-15: before the first user message, the chat pane displays “You are chatting with Northstar AI Support”; the label remains visible during the conversation. The capture set contains desktop and mobile views, build identifiers and timestamps. A corresponding release 3.2 UI test trace confirms the same label is displayed before the first message on both clients. No other transparency duty or broader AI Act classification is in this review scope.

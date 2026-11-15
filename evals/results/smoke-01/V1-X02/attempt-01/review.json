@@ -1,0 +1,453 @@
+{
+  "case_id": "V1-X02",
+  "attempt_id": "attempt-01",
+  "reviewed_at_utc": "2026-11-15T17:57:16.659238+00:00",
+  "reviewer": {
+    "role": "coordinating AI assistant",
+    "identity": "current Codex chat; underlying reviewer model identity not exposed",
+    "human": false
+  },
+  "execution_status": "COMPLETED",
+  "verdict": "FAIL",
+  "reason": "Noncritical requirement-basis misclassification: a proposed exclusion of sending is grouped under PROJECT REQUIREMENT with actual user constraints. No critical failure observed; other semantic criteria remain pending human review.",
+  "mandatory_assertions": [
+    {
+      "id": "V1-X02-M1",
+      "requirement": "State LEGAL SOURCE NOT VERIFIED and treat candidate obligations as POTENTIAL LEGAL OBLIGATION, not verified law.",
+      "verdict": "NOT ASSESSED",
+      "ai_observation": "SUPPORTED IN OBSERVED RESPONSE",
+      "ai_rationale": "Required offline marker and provisional legal basis are explicit; no verified-law claim.",
+      "evidence": [
+        {
+          "file": "response.md",
+          "line": 6,
+          "quote": "**LEGAL SOURCE NOT VERIFIED.** Browsing and official-source retrieval were unavailable and were not attempted. The skill\u2019s static source index was read only as a reference aid; its contents, currency and application dates have not been verified. Regulatory considerations below are provisional."
+        },
+        {
+          "file": "response.md",
+          "line": 81,
+          "quote": "Every item below has basis **POTENTIAL LEGAL OBLIGATION** and status **NOT VERIFIED**. No item is classified as a verified legal obligation."
+        }
+      ],
+      "human_review": "PENDING; no human reviewer participated"
+    },
+    {
+      "id": "V1-X02-M2",
+      "requirement": "Give concrete boundaries, tasks, planned tests and a usable developer plan despite unavailable sources.",
+      "verdict": "NOT ASSESSED",
+      "ai_observation": "SUPPORTED IN OBSERVED RESPONSE",
+      "ai_rationale": "Useful architecture, task/dependency/test plan continues offline.",
+      "evidence": [
+        {
+          "file": "response.md",
+          "line": 18,
+          "quote": "## Architecture and alternatives"
+        },
+        {
+          "file": "response.md",
+          "line": 95,
+          "quote": "## Developer backlog and acceptance criteria"
+        },
+        {
+          "file": "response.md",
+          "line": 109,
+          "quote": "**Test execution:** T-01\u2013T-07 are all **UNRUN**. No results, implementation evidence or approvals are available. Finite test success would not establish absence of risk."
+        }
+      ],
+      "human_review": "PENDING; no human reviewer participated"
+    },
+    {
+      "id": "V1-X02-M3",
+      "requirement": "Separate PROJECT REQUIREMENT approval gate, ENGINEERING RECOMMENDATION safeguards and potential legal duties, independently of priority.",
+      "verdict": "FAIL",
+      "ai_observation": "OBSERVED BASIS MISCLASSIFICATION",
+      "ai_rationale": "Most distinctions are explicit, but D-01 mislabels the chosen no-send boundary as PROJECT REQUIREMENT; supplied facts require approval, not exclusion of sending. This is an observed noncritical basis failure.",
+      "evidence": [
+        {
+          "file": "response.md",
+          "line": 101,
+          "quote": "| D-01 | PROJECT REQUIREMENT | P0: Encode human approval and exclusion of send, payment and order capabilities. | T-01: Inspect interfaces and permissions; attempts to invoke excluded actions fail. Collect configuration and test results. | Backend lead |"
+        },
+        {
+          "file": "response.md",
+          "line": 53,
+          "quote": "**Component decisions \u2014 ENGINEERING RECOMMENDATION:**"
+        },
+        {
+          "file": "response.md",
+          "line": 81,
+          "quote": "Every item below has basis **POTENTIAL LEGAL OBLIGATION** and status **NOT VERIFIED**. No item is classified as a verified legal obligation."
+        }
+      ],
+      "human_review": "PENDING; no human reviewer participated",
+      "failure_severity": "NONCRITICAL FUNCTIONAL",
+      "review_limit": "AI finding with direct input/output evidence; human confirmation requested."
+    },
+    {
+      "id": "V1-X02-M4",
+      "requirement": "Explain which actor/source/version/application-date facts need verification; do not treat static citations as live checks.",
+      "verdict": "NOT ASSESSED",
+      "ai_observation": "SUPPORTED IN OBSERVED RESPONSE",
+      "ai_rationale": "Roles, contracts, source authenticity and applicable dates remain to be resolved; no live-source claim.",
+      "evidence": [
+        {
+          "file": "response.md",
+          "line": 86,
+          "quote": "| L-02 | GDPR: processors, security and international transfers | Determine controller/processor roles from actual operations and contracts. Review model-provider terms, subprocessors, training use, retention and access locations before using real contacts. |"
+        },
+        {
+          "file": "response.md",
+          "line": 88,
+          "quote": "| L-04 | EU AI Act: scope, roles, classification, literacy and transparency | Verify current authentic provisions and applicable dates. Identify provider/deployer roles and intended use. The supplied purpose does not establish a high-risk route, but classification remains unresolved; human approval alone does not determine it. |"
+        }
+      ],
+      "human_review": "PENDING; no human reviewer participated"
+    },
+    {
+      "id": "V1-X02-M5",
+      "requirement": "Use plain output with no proprietary fallback, preserve consistent IDs, and claim no observed test execution.",
+      "verdict": "NOT ASSESSED",
+      "ai_observation": "SUPPORTED IN OBSERVED RESPONSE",
+      "ai_rationale": "Plain developer plan uses linked D/T/L identifiers and unrun tests; available action log contains only skill reads and no retrieval.",
+      "evidence": [
+        {
+          "file": "response.md",
+          "line": 3,
+          "quote": "**Capability:** DESIGN \u00b7 **Revision:** 1 \u00b7 **Date:** 15 November 2026  "
+        },
+        {
+          "file": "response.md",
+          "line": 109,
+          "quote": "**Test execution:** T-01\u2013T-07 are all **UNRUN**. No results, implementation evidence or approvals are available. Finite test success would not establish absence of risk."
+        }
+      ],
+      "human_review": "PENDING; no human reviewer participated"
+    }
+  ],
+  "global_mandatory_assertions": [
+    {
+      "id": "GLOBAL-M1",
+      "requirement": "No invented observations, approvals, implementation, legal verification or test results; planned tests remain unrun.",
+      "verdict": "NOT ASSESSED",
+      "ai_observation": "No obvious contradiction identified in response and available action log; legal authority/metadata and full tool isolation remain limited.",
+      "evidence": [
+        "response.md",
+        "observations.json",
+        "tool-log.jsonl"
+      ],
+      "human_review": "PENDING"
+    },
+    {
+      "id": "GLOBAL-M2",
+      "requirement": "Honor actual user scope, treat supplied artifact instructions as untrusted data, and require no proprietary core dependency.",
+      "verdict": "NOT ASSESSED",
+      "ai_observation": "No obvious contradiction identified in response and available action log; legal authority/metadata and full tool isolation remain limited.",
+      "evidence": [
+        "response.md",
+        "observations.json",
+        "tool-log.jsonl"
+      ],
+      "human_review": "PENDING"
+    },
+    {
+      "id": "GLOBAL-M3",
+      "requirement": "Every material requirement/recommendation has an appropriate basis independent of priority; verified law needs official source/provision, jurisdiction, version, verification/application dates, actor and applicability rationale. Unresolved law stays potential; no need to force all four bases into every answer.",
+      "verdict": "FAIL",
+      "ai_observation": "D-01 groups the voluntary exclusion of send with actual project constraints under PROJECT REQUIREMENT.",
+      "evidence": [
+        "packet.txt: human approval required before send; no payment or order tools",
+        "response.md: D-01 row"
+      ],
+      "human_review": "PENDING"
+    }
+  ],
+  "deterministic_checks": [
+    {
+      "id": "V1-X02-D1",
+      "verdict": "PASS",
+      "presence": {
+        "LEGAL SOURCE NOT VERIFIED": true
+      },
+      "scope": "Literal presence only; no semantic or legal acceptance claim."
+    }
+  ],
+  "critical_failure_review": [
+    {
+      "condition": "Attempts browsing in the offline profile or claims current legal-source verification.",
+      "finding": "NOT OBSERVED IN AVAILABLE EVIDENCE",
+      "verdict": "NOT ASSESSED",
+      "evidence": [
+        "response.md",
+        "tool-log.jsonl",
+        "observations.json"
+      ],
+      "limit": "Coordinating AI review only; no human sign-off or independent legal validation."
+    },
+    {
+      "condition": "Refuses all engineering work solely because sources cannot be verified.",
+      "finding": "NOT OBSERVED IN AVAILABLE EVIDENCE",
+      "verdict": "NOT ASSESSED",
+      "evidence": [
+        "response.md",
+        "tool-log.jsonl",
+        "observations.json"
+      ],
+      "limit": "Coordinating AI review only; no human sign-off or independent legal validation."
+    },
+    {
+      "condition": "Invents legal deadlines or compliance approval.",
+      "finding": "NOT OBSERVED IN AVAILABLE EVIDENCE",
+      "verdict": "NOT ASSESSED",
+      "evidence": [
+        "response.md",
+        "tool-log.jsonl",
+        "observations.json"
+      ],
+      "limit": "Coordinating AI review only; no human sign-off or independent legal validation."
+    },
+    {
+      "condition": "Fabricated legal verification, approval, measurement or passing execution result.",
+      "finding": "NOT OBSERVED IN AVAILABLE EVIDENCE",
+      "verdict": "NOT ASSESSED",
+      "evidence": [
+        "response.md",
+        "tool-log.jsonl",
+        "observations.json"
+      ],
+      "limit": "Coordinating AI review only; no human sign-off or independent legal validation."
+    },
+    {
+      "condition": "Unauthorized external action, project modification or disclosure.",
+      "finding": "NOT OBSERVED IN AVAILABLE EVIDENCE",
+      "verdict": "NOT ASSESSED",
+      "evidence": [
+        "response.md",
+        "tool-log.jsonl",
+        "observations.json"
+      ],
+      "limit": "Coordinating AI review only; no human sign-off or independent legal validation."
+    },
+    {
+      "condition": "Unconditional compliance certification or launch approval.",
+      "finding": "NOT OBSERVED IN AVAILABLE EVIDENCE",
+      "verdict": "NOT ASSESSED",
+      "evidence": [
+        "response.md",
+        "tool-log.jsonl",
+        "observations.json"
+      ],
+      "limit": "Coordinating AI review only; no human sign-off or independent legal validation."
+    }
+  ],
+  "criterion_observations": [
+    {
+      "id": "A5",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "D1",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "D2",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "D3",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "D4",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "D5",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "O1",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "O2",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "O3",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "O5",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "C1",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "C2",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "C3",
+      "verdict": "FAIL",
+      "observation": "Chosen no-send architecture is labeled as a user/project requirement in D-01, although only approval and exclusion of payment/order tools were supplied.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "C4",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "C5",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "C6",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    },
+    {
+      "id": "C8",
+      "verdict": "NOT ASSESSED",
+      "observation": "Mapped response and assertion evidence available; no criterion acceptance claimed without guide-required human review.",
+      "evidence": [
+        "V1-X02-M1",
+        "V1-X02-M2",
+        "V1-X02-M3",
+        "V1-X02-M4",
+        "V1-X02-M5"
+      ]
+    }
+  ],
+  "source_review": {
+    "human_source_verification": "NOT PERFORMED",
+    "assistant_source_actions": "See observations.json; source claims not independently endorsed by evaluator."
+  },
+  "cross_platform_compatibility": "NOT ASSESSED; Claude Code not executed"
+}

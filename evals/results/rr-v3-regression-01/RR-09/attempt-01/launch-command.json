@@ -1,0 +1,18 @@
+[
+  "codex",
+  "exec",
+  "--ephemeral",
+  "--skip-git-repo-check",
+  "--json",
+  "--model",
+  "gpt-6.1-sol",
+  "--config",
+  "model_reasoning_effort=\"low\"",
+  "--config",
+  "web_search=\"live\"",
+  "--sandbox",
+  "read-only",
+  "--cd",
+  "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-v3-regression-01/RR-09/isolated-workspace",
+  "-"
+]

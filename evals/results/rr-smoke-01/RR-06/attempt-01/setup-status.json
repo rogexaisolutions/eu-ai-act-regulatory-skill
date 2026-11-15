@@ -1,0 +1,5 @@
+{
+  "status": "UNUSED_PREPARATION_SCAFFOLD",
+  "codex_invocation_started": false,
+  "reason": "Preparation scaffold was created before execution; the actual single model execution is recorded under attempt-02."
+}

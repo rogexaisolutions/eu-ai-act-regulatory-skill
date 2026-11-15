@@ -1,0 +1,13 @@
+{
+  "case_id": "V1-A02",
+  "execution_window_utc": [
+    "2026-11-15T21:07:18.691973+00:00",
+    "2026-11-15T21:07:50.235749+00:00"
+  ],
+  "observed_source_urls": [],
+  "retrieval_events": [],
+  "assistant_response_links": [],
+  "reviewer_sources": [],
+  "reviewer_legal_verification": "NOT PERFORMED; do not treat assistant links as reviewer verification",
+  "content_limit": "CLI JSONL retains web actions and result references/snippets, not complete retrieved page bodies. No independent reviewer legal retrieval performed."
+}

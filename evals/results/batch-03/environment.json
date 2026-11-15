@@ -1,0 +1,28 @@
+{
+  "recorded_at_utc": "2026-11-15T21:24:30.580010+00:00",
+  "host": "codex-cli 0.169.0-alpha.11.1",
+  "os": "macOS-15.1-arm64-arm-64bit",
+  "language": "Packets and outputs English; host locale not independently captured",
+  "repository_commit": "HEAD",
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED",
+  "effective_reasoning_effort": "UNVERIFIED",
+  "execution": "Elevated outer process to permit Codex initialization; each model child launched with read-only sandbox, ephemeral, ignore-user-config and ignore-rules. No reasoning escalation.",
+  "isolation": "Fresh temporary workspace and separate Codex thread per scenario, exact frozen skill copy and inline packet only. No assertions, earlier transcripts or review findings supplied. Full hidden host instruction/memory isolation cannot be independently verified.",
+  "installation_paths": {
+    "V1-D01": "/var/folders/t5/zxfcg1ps70l4ynj76dvr0khm0000gn/T/rogex-batch-03-b9im_r6f/V1-D01/.agents/skills/rogex-regulatory-assistant",
+    "V1-O01": "/var/folders/t5/zxfcg1ps70l4ynj76dvr0khm0000gn/T/rogex-batch-03-b9im_r6f/V1-O01/.agents/skills/rogex-regulatory-assistant",
+    "V1-X01": "/var/folders/t5/zxfcg1ps70l4ynj76dvr0khm0000gn/T/rogex-batch-03-b9im_r6f/V1-X01/.agents/skills/rogex-regulatory-assistant"
+  },
+  "environment_profiles": {
+    "V1-D01": "ONLINE",
+    "V1-O01": "ONLINE",
+    "V1-X01": "ONLINE"
+  },
+  "source_availability": "Built-in web_search live requested for all three ONLINE cases; actual access recorded per case. Shell could read more than an explicit skill-only allowlist; connector surfaces and host plugin startup not independently disabled.",
+  "other_injected_instructions": "Codex built-in instructions and globally discovered plugin/skill environment not fully exposed in events. No extra project instructions copied.",
+  "human_review": "PENDING",
+  "legal_validation": "NOT ASSESSED; no independent authoritative verification",
+  "cross_platform_validation": "NOT ASSESSED; Codex only"
+}

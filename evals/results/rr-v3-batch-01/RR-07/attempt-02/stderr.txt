@@ -1,0 +1,7 @@
+2026-11-15T23:08:48.802047Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-11-15T23:08:48.802120Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-11-15T23:08:48.806152Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-11-15T23:08:49.607660Z  WARN codex_core_plugins::remote::remote_installed_plugin_sync: failed to download remote installed plugin bundle remote_plugin_id=plugin_asdk_app_69bc11db874881918718abaca20b68ce plugin=app-69bc11db874881918718abaca20b68ce marketplace=openai-curated-remote error=remote plugin bundle did not contain a standard plugin root with plugin.json
+2026-11-15T23:08:49.650081Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-11-15T23:08:49.650115Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-11-15T23:10:24.089607Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf("/Users/martacaula/.codex/shell_snapshots/01a1e178-6f1d-78c2-9f51-b61d6a2f4fbf.1794784128802769000.sh"): Os { code: 2, kind: NotFound, message: "No such file or directory" }

@@ -1,0 +1,50 @@
+{
+  "case_id": "V1-I02",
+  "execution_window_utc": [
+    "2026-11-15T21:09:55.544684+00:00",
+    "2026-11-15T21:10:42.171054+00:00"
+  ],
+  "observed_source_urls": [
+    "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+  ],
+  "retrieval_events": [
+    {
+      "event_line": 9,
+      "event": {
+        "id": "exec-0a16de23-e1ec-4b06-aaa2-b1ed69d6e52b",
+        "type": "web_search",
+        "query": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "action": {
+          "type": "open_page",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn0view0",
+            "snippet": "Total lines: 2265",
+            "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn0view1",
+            "snippet": "Total lines: 3292",
+            "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+          }
+        ]
+      }
+    }
+  ],
+  "assistant_response_links": [
+    "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+  ],
+  "reviewer_sources": [],
+  "reviewer_legal_verification": "NOT PERFORMED; do not treat assistant links as reviewer verification",
+  "content_limit": "CLI JSONL retains web actions and result references/snippets, not complete retrieved page bodies. No independent reviewer legal retrieval performed."
+}

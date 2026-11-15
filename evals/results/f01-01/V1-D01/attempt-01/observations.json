@@ -1,0 +1,115 @@
+{
+  "case_id": "V1-D01",
+  "setup_valid": true,
+  "session_ids": [
+    "01a1e064-1799-7891-91fb-60e31f59fbc2"
+  ],
+  "skill_activation_completed_event_lines": [
+    5
+  ],
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED: not exposed in captured events",
+  "effective_reasoning_effort": "UNVERIFIED: not exposed in captured events",
+  "shell_commands_observed": [
+    {
+      "line": 5,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/SKILL.md'",
+      "exit_code": 0
+    },
+    {
+      "line": 7,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/references/capabilities.md .agents/skills/rogex-regulatory-assistant/references/triage.md .agents/skills/rogex-regulatory-assistant/references/controls.md .agents/skills/rogex-regulatory-assistant/references/sources.md .agents/skills/rogex-regulatory-assistant/templates/implementation-plan.md'",
+      "exit_code": 0
+    }
+  ],
+  "source_actions_observed": [
+    {
+      "line": 9,
+      "action": {
+        "type": "open_page",
+        "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view0",
+          "snippet": "Total lines: 2265",
+          "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.boe.es",
+          "ref_id": "turn0view1",
+          "snippet": "Total lines: 2859",
+          "title": "BOE-A-2018-16673 Ley Org\u00e1nica 3/2018, de 5 de diciembre, de Protecci\u00f3n de Datos Personales y garant\u00eda de los derechos digitales.",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view2",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view3",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        }
+      ]
+    },
+    {
+      "line": 11,
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Article 5"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view0",
+          "snippet": "Total lines: 2265",
+          "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.boe.es",
+          "ref_id": "turn1view1",
+          "snippet": "Total lines: 2859",
+          "title": "BOE-A-2018-16673 Ley Org\u00e1nica 3/2018, de 5 de diciembre, de Protecci\u00f3n de Datos Personales y garant\u00eda de los derechos digitales.",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view2",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view3",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        }
+      ]
+    }
+  ],
+  "deterministic_checks": [],
+  "isolated_skill_hash_match": true,
+  "extra_workspace_files": [],
+  "response_matches_final_event": true,
+  "tool_access_limit": "Read-only shell requested. Built-in web search disabled for X02/live for D01. Runtime plugin initialization warnings remain; no claim all connector surfaces independently disabled."
+}

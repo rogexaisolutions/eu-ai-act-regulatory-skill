@@ -1,0 +1,641 @@
+[
+  {
+    "type": "item.started",
+    "item": {
+      "id": "exec-e526d646-34a5-443d-a3c7-aa2097869f03",
+      "type": "web_search",
+      "query": "",
+      "action": {
+        "type": "other"
+      }
+    }
+  },
+  {
+    "type": "item.completed",
+    "item": {
+      "id": "exec-e526d646-34a5-443d-a3c7-aa2097869f03",
+      "type": "web_search",
+      "query": "site.eur-lex.europa.eu 2024/1689 Article 5 emotions workplace biometric data ...",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site.eur-lex.europa.eu 2024/1689 Article 5 emotions workplace biometric data",
+          "site.cnil.fr emotion reconnaissance travail intelligence artificielle interdit consentement salari\u00e9"
+        ]
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0search0",
+          "snippet": "the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680 include the reasons why the processing of special",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0search12",
+          "snippet": "(18) The notion of \u2018emotion recognition system\u2019 referred to in this Regulation should be defined as an AI system for the purpose of identifying or",
+          "title": "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act)Text with EEA relevance.",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng/pdf"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0search1",
+          "snippet": "(15) | The notion of \u2018biometric identification\u2019 referred to in this Regulation should be defined as the automated recognition of physical, physiological and behavioural human",
+          "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?exec=1ba4582&uri=CELEX%3A32024R1689"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0search2",
+          "snippet": "the placing on the market, the putting into service or the use of an AI system that generates or manipulates material or performance within the",
+          "title": "Consolidated TEXT: 32024R1689 \u2014 EN \u2014 27.07.2026",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0search3",
+          "snippet": "(18) | The notion of \u2018emotion recognition system\u2019 referred to in this Regulation should be defined as an AI system for the purpose of identifying",
+          "title": "Regulation - EU - 2024/1689 - EL - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1750044410172&uri=CELEX%3A32024R1689"
+        },
+        {
+          "type": "text_result",
+          "domain": "rm.coe.int",
+          "ref_id": "turn0search13",
+          "snippet": "l\u2019IA n\u2019interdit la reconnaissance des \u00e9motions que sur le lieu de travail et dans les ... digital field, \u00e9tude pour la commission sp\u00e9ciale sur l\u2019intelligence",
+          "title": "LIGNES DIRECTRICES POLITIQUES",
+          "url": "https://rm.coe.int/policy-guidelines-fra-web/48802a38d2"
+        },
+        {
+          "type": "text_result",
+          "domain": "regelex.com",
+          "ref_id": "turn0search4",
+          "snippet": "the placing on the market, the putting into service for this specific purpose, or the use of AI systems to infer emotions of a natural",
+          "title": "Article 5 \u00b7 Prohibited AI practices \u00b7 Regulation (EU) 2024/1689, consolidated version of 2026-07-27 \u00b7 Regelex",
+          "url": "https://regelex.com/legislation/02024R1689-20260727/art_5?as=adopted&on=2026-11-01"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0search5",
+          "snippet": "Article 5 ... (f) | the placing on the market, the putting into service for this specific purpose, or the use of AI systems to",
+          "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AL_202401689"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0search14",
+          "snippet": "02024R1689 \u2014 EN \u2014 27.07.2026 \u2014 001.001 \u2014 14 ... (f) the placing on the market, the putting into service for this specific purpose, or",
+          "title": "CL2024R1689EN0010010.0001.3bi_cp 1..1",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng/pdf"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0search6",
+          "snippet": "(40) | In accordance with Article 6a of Protocol No 21 on the position of the United Kingdom and Ireland in respect of the area",
+          "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32024R1689"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0search7",
+          "snippet": "Article 4 ... the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680 include the reasons why the",
+          "title": "EUR-Lex - 02024R1689-20260727 - DE - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1769791979396&uri=CELEX%3A02024R1689-20260727"
+        },
+        {
+          "type": "text_result",
+          "domain": "regelex.com",
+          "ref_id": "turn0search8",
+          "snippet": "the placing on the market, the putting into service for this specific purpose, or the use of AI systems to infer emotions of a natural",
+          "title": "Article 5 \u00b7 Prohibited AI practices \u00b7 Regulation (EU) 2024/1689 \u00b7 Regelex",
+          "url": "https://regelex.com/legislation/32024R1689/art_5?as=adopted&on=2024-07-12"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0search15",
+          "snippet": "** L\u2019utilisation g\u00e9n\u00e9ralis\u00e9e de la reconnaissance biom\u00e9trique fond\u00e9e sur l\u2019intelligence artificielle aux fins de la surveillance, du suivi, de l\u2019\u00e9valuation ou de la cat\u00e9gorisation des",
+          "title": "Avis du Comit\u00e9 \u00e9conomique et social europ\u00e9en sur le \u00abLivre blanc sur l\u2019intelligence artificielle \u2014 Une approche europ\u00e9enne ax\u00e9e sur l\u2019excellence et la confiance\u00bb [COM(2020) 65 final]",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX%3A52020AE1110"
+        },
+        {
+          "type": "text_result",
+          "domain": "cnil.fr",
+          "ref_id": "turn0search9",
+          "snippet": "Il peut fonder le traitement sur la base de leur consentement. ... Il peut \u00e9galement exister des difficult\u00e9s li\u00e9es au droit de retirer son consentement,",
+          "title": "IA : Assurer que le traitement est licite - D\u00e9finir une base l\u00e9gale | CNIL",
+          "url": "https://cnil.fr/fr/assurer-que-le-traitement-est-licite"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn0search10",
+          "snippet": "D'ores et d\u00e9j\u00e0 ce type de recours \u00e0 l'IA est interdit en France puisqu'\" aucune d\u00e9cision de justice impliquant une appr\u00e9ciation sur le comportement d'une",
+          "title": "Avis relatif \u00e0 l'impact de l'intelligence artificielle sur les droits fondamentaux (A - 2022 - 6) - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045593731?init=true&page=1&query=Intelligence"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.cgt.fr",
+          "ref_id": "turn0search11",
+          "snippet": "L\u2019article L. 1222-4 du Code du travail pr\u00e9cise par ailleurs qu\u2019\u00ab aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui",
+          "title": "L\u2019IA au travail : tout savoir sur ses droits en 16 questions | CGT",
+          "url": "https://www.cgt.fr/actualites/france/intelligence-artificielle/lia-au-travail-tout-savoir-sur-ses-droits-en-16-questions"
+        },
+        {
+          "type": "text_result",
+          "domain": "fr.wikipedia.org",
+          "ref_id": "turn0search16",
+          "snippet": "En 2016, l\u2019Union europ\u00e9enne se dote d\u2019un r\u00e8glement g\u00e9n\u00e9ral sur la protection des donn\u00e9es (RGPD) qui est transcrit en France dans la Loi informatique et",
+          "title": "Loi informatique et libert\u00e9s",
+          "url": "https://fr.wikipedia.org/wiki/Loi_informatique_et_libert%C3%A9s"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.lemonde.fr",
+          "ref_id": "turn0news17",
+          "snippet": "En France, depuis l\u2019entr\u00e9e en vigueur du RGPD en 2018, les entreprises ne sont plus dans l\u2019obligation de solliciter l\u2019autorisation de la Commission nationale de",
+          "title": "La reconnaissance faciale s'installe dans les entreprises en toute discr\u00e9tion",
+          "url": "https://www.lemonde.fr/emploi/article/2025/01/22/la-reconnaissance-faciale-s-installe-dans-les-entreprises-en-toute-discretion_6509465_1698637.html"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.lemonde.fr",
+          "ref_id": "turn0news18",
+          "snippet": "Le r\u00e9cent <a href=\"https://www.lemonde.fr/economie/article/2023/12/09/ai-act-l-union-europeenne-pionniere-dans-la-regulation-de-l-intelligence-artificielle_6204830_3234.html\">r\u00e8glement AI Act</a> a in",
+          "title": "\u00ab L'IA ouvre de nouvelles possibilit\u00e9s de surveillance \u00bb",
+          "url": "https://www.lemonde.fr/idees/article/2024/05/23/l-ia-ouvre-de-nouvelles-possibilites-de-surveillance_6235057_3232.html"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.lemonde.fr",
+          "ref_id": "turn0news19",
+          "snippet": "Hasard du calendrier, \u00e0 quelques jours seulement du <a href=\"https://www.lemonde.fr/economie/article/2024/11/30/avec-son-sommet-des-10-et-11-fevrier-paris-se-reve-en-capitale-d-une-ia-positive_6421824",
+          "title": "Intelligence artificielle : les premi\u00e8res mesures du r\u00e8glement europ\u00e9en AI Act entrent en vigueur",
+          "url": "https://www.lemonde.fr/economie/article/2025/02/02/intelligence-artificielle-les-premieres-mesures-du-reglement-europeen-ai-act-entrent-en-vigueur_6527570_3234.html"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.lemonde.fr",
+          "ref_id": "turn0news20",
+          "snippet": "L\u2019intelligence artificielle (IA) promet plus d\u2019objectivit\u00e9 et de performance. En r\u00e9alit\u00e9, c\u2019est un travail plac\u00e9 sous surveillance \u00e9motionnelle. ... Derri\u00e8re la collecte, il y a",
+          "title": "S\u00e9bastien Crozier, syndicaliste : \u00ab Standardiser la voix, c'est nier qu'une intonation est souvent une histoire \u00bb",
+          "url": "https://www.lemonde.fr/idees/article/2025/08/19/sebastien-crozier-syndicaliste-standardiser-la-voix-c-est-nier-qu-une-intonation-est-souvent-une-histoire_6631780_3232.html"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.lemonde.fr",
+          "ref_id": "turn0news21",
+          "snippet": "Un logiciel de reconnaissance faciale utilis\u00e9 ill\u00e9galement dans des dizaines de courses organis\u00e9es en France ... Avec l\u2019essor de l\u2019intelligence artificielle (IA), il est devenu",
+          "title": "Un logiciel de reconnaissance faciale utilis\u00e9 ill\u00e9galement dans des dizaines de courses organis\u00e9es en France",
+          "url": "https://www.lemonde.fr/pixels/article/2025/03/19/un-logiciel-de-reconnaissance-faciale-utilise-illegalement-dans-des-dizaines-de-courses-organisees-en-france_6583451_4408996.html"
+        },
+        {
+          "type": "text_result",
+          "domain": "fr.wikipedia.org",
+          "ref_id": "turn0search23",
+          "snippet": "* il peut servir le bien commun, par exemple pour un \u00ab diagnostic en ligne \u00bb ou en t\u00e9l\u00e9m\u00e9decine notamment pour l'\u00e9valuation de la douleur",
+          "title": "Reconnaissance automatique des \u00e9motions",
+          "url": "https://fr.wikipedia.org/wiki/Reconnaissance_automatique_des_%C3%A9motions"
+        },
+        {
+          "type": "text_result",
+          "domain": "fr.wikipedia.org",
+          "ref_id": "turn0search24",
+          "snippet": "L'emotion AI est la d\u00e9tection et l'analyse automatis\u00e9es des expressions et micro-expressions faciales. ... Dans l'Union europ\u00e9enne, le r\u00e8glement sur l'intelligence artificielle interdit ou limite",
+          "title": "Applications de l'intelligence artificielle",
+          "url": "https://fr.wikipedia.org/wiki/Applications_de_l%27intelligence_artificielle"
+        },
+        {
+          "type": "text_result",
+          "domain": "fr.wikipedia.org",
+          "ref_id": "turn0search25",
+          "snippet": "Clauses du contrat de travail en France ... M\u2026\u2026\u2026\u2026 s\u2019engage \u00e0 ne communiquer \u00e0 qui que ce soit, pendant la dur\u00e9e de son contrat de",
+          "title": "Clauses du contrat de travail en France",
+          "url": "https://fr.wikipedia.org/wiki/Clauses_du_contrat_de_travail_en_France"
+        },
+        {
+          "type": "text_result",
+          "domain": "arxiv.org",
+          "ref_id": "turn0academia26",
+          "snippet": "Sears, Lex Zard, Eduard Fosch-Villaronga ... This article sheds light on legal implications and challenges surrounding emotion data processing within the EU's legal framework.",
+          "title": "EU law and emotion data",
+          "url": "https://arxiv.org/abs/2309.10776"
+        }
+      ]
+    }
+  },
+  {
+    "type": "item.started",
+    "item": {
+      "id": "exec-105a50a3-f5aa-48d9-b4bb-072c2a3d6274",
+      "type": "web_search",
+      "query": "",
+      "action": {
+        "type": "other"
+      }
+    }
+  },
+  {
+    "type": "item.completed",
+    "item": {
+      "id": "exec-105a50a3-f5aa-48d9-b4bb-072c2a3d6274",
+      "type": "web_search",
+      "query": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "action": {
+        "type": "open_page",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view1",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view2",
+          "snippet": "Total lines: 2265",
+          "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+        }
+      ]
+    }
+  },
+  {
+    "type": "item.started",
+    "item": {
+      "id": "exec-e06be07c-dfc9-4ebc-9bdf-ffa69627ca7f",
+      "type": "web_search",
+      "query": "",
+      "action": {
+        "type": "other"
+      }
+    }
+  },
+  {
+    "type": "item.completed",
+    "item": {
+      "id": "exec-e06be07c-dfc9-4ebc-9bdf-ffa69627ca7f",
+      "type": "web_search",
+      "query": "site.legifrance.gouv.fr Code travail L1222-4 L2312-38 contr\u00f4le activit\u00e9 salari\u00e9s ...",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site.legifrance.gouv.fr Code travail L1222-4 L2312-38 contr\u00f4le activit\u00e9 salari\u00e9s",
+          "site.edpb.europa.eu guidelines consent employees imbalance employer consent 05/2020"
+        ]
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search0",
+          "snippet": "## Code du travail ... ## Article L1222-4 ... Aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui n'a pas",
+          "title": "Article L1222-4 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861/2026-11-12"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search1",
+          "snippet": "## Code du travail ... ## Article L1222-4 ... Aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui n'a pas",
+          "title": "Article L1222-4 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861/2026-11-14"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search2",
+          "snippet": "## Code du travail ... ## Article L1222-4 ... Aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui n'a pas",
+          "title": "Article L1222-4 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861/2026-08-26"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search3",
+          "snippet": "## Code du travail ... ## Article L1222-4 ... Aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui n'a pas",
+          "title": "Article L1222-4 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861/2026-06-15"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search4",
+          "snippet": "## Code du travail ... ## Article L1222-4 ... Aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui n'a pas",
+          "title": "Article L1222-4 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861/2026-07-08"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.edpb.europa.eu",
+          "ref_id": "turn2search12",
+          "snippet": "The [EDPB Guidelines on consent](https://www.edpb.europa.eu/) provide guidance on the validity of consent, the conditions for obtaining it, and discuss specific aspects in relation to children\u2019s",
+          "title": "# Consent under GDPR: When to act and what to do",
+          "url": "https://www.edpb.europa.eu/system/files/2026-11/edpb_guidelines-at-a-glance_consent-regulation_en.pdf"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search5",
+          "snippet": "## Code du travail ... ## Article L1222-4 ... Aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui n'a pas",
+          "title": "Article L1222-4 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861/2026-10-08"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search6",
+          "snippet": "## Code du travail ... ## Article L1222-4 ... Aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui n'a pas",
+          "title": "Article L1222-4 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861/2026-07-07"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search7",
+          "snippet": "## Code du travail ... ## Article L1222-4 ... Aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui n'a pas",
+          "title": "Article L1222-4 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861/2026-05-15"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search8",
+          "snippet": "## Code du travail ... ## Article L1222-4 ... Aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui n'a pas",
+          "title": "Article L1222-4 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861/2026-10-26"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search9",
+          "snippet": "## Code du travail ... ## Article L1222-4 ... Aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre collect\u00e9e par un dispositif qui n'a pas",
+          "title": "Article L1222-4 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861/2026-07-02"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search10",
+          "snippet": "## Code du travail ... * ###### Sous-paragraphe 1er : M\u00e9thodes de recrutement et moyens de contr\u00f4le de l'activit\u00e9 des salari\u00e9s (Article L2312-38)",
+          "title": "Article L2312-38 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035610275/2026-03-25"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search11",
+          "snippet": "## Code du travail ... * Sous-paragraphe 1er : M\u00e9thodes de recrutement et moyens de contr\u00f4le de l'activit\u00e9 des salari\u00e9s (Article L2312-38)D\u00e9plier/Replier",
+          "title": "Paragraphe 1er : Ordre public (Articles L2312-37 \u00e0 L2312-54) - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000035610269/2026-08-16"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.edpb.europa.eu",
+          "ref_id": "turn2search13",
+          "snippet": "The [EDPB Guidelines on consent](https://www.edpb.europa.eu/) provide guidance on the validity of consent, the conditions for obtaining it, and discuss specific aspects in relation to children\u2019s",
+          "title": "# Consent under GDPR: When to act and what to do",
+          "url": "https://www.edpb.europa.eu/system/files_en?file=2026-11%2Fedpb_guidelines-at-a-glance_consent-regulation_en.pdf"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.edpb.europa.eu",
+          "ref_id": "turn2search14",
+          "snippet": "The EDPB Guidelines on consent provide guidance on the validity of consent, the conditions for obtaining it, and discuss specific aspects in relation to children\u2019s",
+          "title": "Consent under GDPR:",
+          "url": "https://www.edpb.europa.eu/system/files/2026-04/edpb-summary-consent_en.pdf"
+        },
+        {
+          "type": "text_result",
+          "domain": "uoou.gov.cz",
+          "ref_id": "turn2search15",
+          "snippet": "from the employer/employee relationship, it is unlikely that the data subject is able to deny his/her employer consent to data processing without experiencing the fear",
+          "title": "Guidelines 05/2020 on consent under Regulation 2016/679",
+          "url": "https://uoou.gov.cz/media/edpb-guidelines-202005-consent-en.pdf"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn2search16",
+          "snippet": "Ce d\u00e9lai est ramen\u00e9 \u00e0 vingt-quatre heures si la dur\u00e9e de pr\u00e9sence du salari\u00e9 dans l'entreprise est inf\u00e9rieure \u00e0 huit jours. ... Les m\u00e9thodes et",
+          "title": "Lorsqu'il est mis fin \u00e0 la p\u00e9riode d'essai par le salari\u00e9, celui-ci respecte un d\u00e9lai de pr\u00e9venance de quarante-huit heures. Ce d\u00e9lai est ramen\u00e9 \u00e0 vingt-quatre heures si la dur\u00e9e de pr\u00e9sence du salari\u00e9 dans l'entreprise est inf\u00e9rieure \u00e0 huit jours.",
+          "url": "https://www.legifrance.gouv.fr/download/file/pdf/LEGITEXT000006072050.pdf/LEGI"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.courdecassation.fr",
+          "ref_id": "turn2search17",
+          "snippet": "L'article 1222-4 du code du travail pr\u00e9voit qu'aucune information concernant personnellement un salari\u00e9 ne peut \u00eatre ... L'article L 2312-38 du code du travail impose",
+          "title": "C 9\nN\u00b0 RG 22/02275\nN\u00b0 Portalis DBVM-V-B7G-LM56\nN\u00b0",
+          "url": "https://www.courdecassation.fr/decision/export/6662a3663b9bf20008ba3458/0"
+        },
+        {
+          "type": "text_result",
+          "domain": "fr.wikipedia.org",
+          "ref_id": "turn2search18",
+          "snippet": "En outre, conform\u00e9ment \u00e0 l\u2019article L 1222-4 du Code du travail, les salari\u00e9s doivent n\u00e9cessairement \u00eatre inform\u00e9s de la mise en \u0153uvre de dispositifs visant",
+          "title": "Addiction au travail",
+          "url": "https://fr.wikipedia.org/wiki/Addiction_au_travail"
+        },
+        {
+          "type": "text_result",
+          "domain": "fr.wikipedia.org",
+          "ref_id": "turn2search19",
+          "snippet": "Le code du travail sur L\u00e9gifrance ou directement sur https://code.travail.gouv.fr/ ... * aux relations collectives au travail (n\u00e9gociation collective, activit\u00e9 syndicale, instances repr\u00e9sentatives du ",
+          "title": "Code du travail (France)",
+          "url": "https://fr.wikipedia.org/wiki/Code_du_travail_%28France%29"
+        },
+        {
+          "type": "text_result",
+          "domain": "fr.wikipedia.org",
+          "ref_id": "turn2search20",
+          "snippet": "* Article L121-8 ancien code du travail, Article L1222-4 du Nouveau Code du travail qui stipule : \u00ab Aucune information concernant personnellement un salari\u00e9 ne",
+          "title": "D\u00e9tective",
+          "url": "https://fr.wikipedia.org/wiki/D%C3%A9tective"
+        },
+        {
+          "type": "text_result",
+          "domain": "fr.wikipedia.org",
+          "ref_id": "turn2search21",
+          "snippet": "Clauses du contrat de travail en France ... * la d\u00e9signation du poste de travail en pr\u00e9cisant, le cas \u00e9ch\u00e9ant, si ce poste figure sur",
+          "title": "Clauses du contrat de travail en France",
+          "url": "https://fr.wikipedia.org/wiki/Clauses_du_contrat_de_travail_en_France"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.lemonde.fr",
+          "ref_id": "turn2news22",
+          "snippet": "L\u2019<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035611311\">article L. 2312-78 du code du travail</a> dispose que <em>\u00ab les activit\u00e9s sociales et culturelles </em>[sont] <em>\u00e9tabl",
+          "title": "Activit\u00e9s sociales du CSE : 2025, ann\u00e9e du changement",
+          "url": "https://www.lemonde.fr/emploi/article/2025/01/14/activites-sociales-du-cse-2025-annee-du-changement_6496690_1698637.html"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.lemonde.fr",
+          "ref_id": "turn2news23",
+          "snippet": "Le <a href=\"https://www.doctrine.fr/d/CA/Nimes/2022/CAP413ECB1DB9F2685EA38F? ... Elle l\u2019indemnise en lui allouant la somme de 34 300 euros (dont 19 338 euros pour rappel de salaire, 1 934",
+          "title": "Une dame de compagnie est-elle une salari\u00e9e ?",
+          "url": "https://www.lemonde.fr/argent/article/2024/04/08/une-dame-de-compagnie-est-elle-une-salariee_6226595_1657007.html"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.lemonde.fr",
+          "ref_id": "turn2news24",
+          "snippet": "L\u2019article<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902808\"> L. 3171-4 du code du travail</a> pr\u00e9voit un partage du fardeau de la preuve : il appartient \u00e0 l\u2019employeur de d\u00e9",
+          "title": "La d\u00e9licate preuve des \u00ab heures sup \u00bb",
+          "url": "https://www.lemonde.fr/emploi/article/2024/05/14/la-delicate-preuve-des-heures-sup_6233109_1698637.html"
+        },
+        {
+          "type": "text_result",
+          "domain": "fr.wikipedia.org",
+          "ref_id": "turn2search25",
+          "snippet": "Le comit\u00e9 peut \u00e9galement mandater un expert-comptable afin qu'il apporte toute analyse utile aux organisations syndicales pour pr\u00e9parer les n\u00e9gociations pr\u00e9vues au l'article L2254-2 du",
+          "title": "Comit\u00e9 social et \u00e9conomique",
+          "url": "https://fr.wikipedia.org/wiki/Comit%C3%A9_social_et_%C3%A9conomique"
+        },
+        {
+          "type": "text_result",
+          "domain": "fr.wikipedia.org",
+          "ref_id": "turn2search26",
+          "snippet": "Contrat de travail en France ... La subordination juridique c\u2019est le fait que l\u2019employeur va pouvoir diriger l\u2019activit\u00e9 du salari\u00e9 et lui donner des ordres",
+          "title": "Contrat de travail en France",
+          "url": "https://fr.wikipedia.org/wiki/Contrat_de_travail_en_France"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.lemonde.fr",
+          "ref_id": "turn2news27",
+          "snippet": "<strong>Carnet de bureau.</strong> <em>\u00ab Maux de t\u00eate, picotement, yeux rouges \u00bb</em>, mentionne l\u2019attestation d\u2019accident de service d\u2019un des 70 salari\u00e9s de l\u2019Institut de biologie et",
+          "thumbnail_url": "https://img.lemde.fr/2025/05/05/0/0/0/0/500/0/0/0/a2eb47b_sirius-fs-upload-1-ofb3jehprvmw-1746437345465-maxnewsspecialtwo178298.jpg",
+          "title": "Le droit de retrait, dernier recours des salari\u00e9s dans l'impasse",
+          "url": "https://www.lemonde.fr/emploi/article/2025/05/07/le-droit-de-retrait-dernier-recours-des-salaries-dans-l-impasse_6603743_1698637.html"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.lemonde.fr",
+          "ref_id": "turn2news28",
+          "snippet": "A priori la question est simple : <em>\u00ab Toute personne a droit \u00e0 la libert\u00e9 d\u2019expression \u00bb, </em>nous indiquent tant l\u2019<a href=\"https://rm.coe.int/1680063776#:~:text=Article%2010%20%E2%80%93%20Libert%",
+          "title": "La libert\u00e9 d'expression politique du salari\u00e9",
+          "url": "https://www.lemonde.fr/emploi/article/2024/06/25/la-liberte-d-expression-politique-du-salarie_6243483_1698637.html"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view1",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view2",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view3",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view4",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        }
+      ]
+    }
+  },
+  {
+    "type": "item.started",
+    "item": {
+      "id": "exec-1353991a-0c69-4525-abbe-34d73f3cbed3",
+      "type": "web_search",
+      "query": "",
+      "action": {
+        "type": "other"
+      }
+    }
+  },
+  {
+    "type": "item.completed",
+    "item": {
+      "id": "exec-1353991a-0c69-4525-abbe-34d73f3cbed3",
+      "type": "web_search",
+      "query": "",
+      "action": {
+        "type": "other"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn3view0",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn3view1",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "www.legifrance.gouv.fr",
+          "ref_id": "turn3view2",
+          "snippet": "Total lines: 204",
+          "title": "Article L2312-38 - Code du travail - L\u00e9gifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035610275"
+        },
+        {
+          "type": "text_result",
+          "ref_id": "turn3view3",
+          "title": "Internal Error"
+        }
+      ]
+    }
+  }
+]

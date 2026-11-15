@@ -1,0 +1,21 @@
+{
+  "scenario": "RR-01",
+  "environment_profile": "ONLINE",
+  "profile_description": "Skill and inline synthetic artifacts; official-source browsing permitted when available; no mutation.",
+  "isolated_workspace": "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-batch-02/RR-01/isolated-workspace",
+  "skill_copy_resource_hashes": {
+    "SKILL.md": "15f02d1e312ad555cb0d1a2fd487a07d3ea1a8892bd63a48dfc45c5e519e453a",
+    "references/capabilities.md": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+    "references/controls.md": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+    "references/regulatory-review.md": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+    "references/sources.md": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+    "references/triage.md": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+    "templates/design-review.md": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+    "templates/implementation-plan.md": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+    "templates/improvement-plan.md": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+    "templates/regulatory-review.md": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+    "templates/technical-document.md": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da"
+  },
+  "packet_sha256": "89acca4f67a6265bdc4f8f9d23809ef77f93ae4095af93a92c84154f7dfe2fea",
+  "offline_tool_policy": "Online allowed; configured browser/search available"
+}

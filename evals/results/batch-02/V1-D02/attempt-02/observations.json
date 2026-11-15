@@ -1,0 +1,113 @@
+{
+  "case_id": "V1-D02",
+  "setup_valid": true,
+  "session_ids": [
+    "01a1e10a-7a7b-77a3-ba9d-54ba3d025f9c"
+  ],
+  "skill_activation_completed_event_lines": [
+    5
+  ],
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED: not exposed in captured events",
+  "effective_reasoning_effort": "UNVERIFIED: not exposed in captured events",
+  "shell_commands_observed": [
+    {
+      "line": 5,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/SKILL.md'",
+      "exit_code": 0
+    },
+    {
+      "line": 7,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/references/{capabilities,triage,controls,sources}.md'",
+      "exit_code": 0
+    }
+  ],
+  "source_actions_observed": [
+    {
+      "line": 9,
+      "action": {
+        "type": "open_page",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view1",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view2",
+          "snippet": "Total lines: 2999",
+          "title": "Regulation - 2023/1230 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj"
+        }
+      ]
+    },
+    {
+      "line": 11,
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Article 6"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view1",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view2",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view3",
+          "snippet": "Total lines: 2999",
+          "title": "Regulation - 2023/1230 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj"
+        }
+      ]
+    }
+  ],
+  "deterministic_checks": [],
+  "isolated_skill_hash_match": true,
+  "extra_workspace_files": [],
+  "response_matches_final_event": true,
+  "tool_access_limit": "Read-only shell requested; built-in web_search disabled for CONTEXT_ONLY A02 and live for ONLINE cases. Broader shell read scope and remote-plugin startup could not be independently disabled; no enforced filesystem allowlist or connector-isolation claim.",
+  "observed_tool_types": [
+    "agent_message",
+    "command_execution",
+    "web_search"
+  ],
+  "source_log_limit": "CLI JSONL retains web actions and result references/snippets, not complete retrieved page bodies. No independent reviewer legal retrieval performed."
+}

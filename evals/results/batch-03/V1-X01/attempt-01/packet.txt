@@ -1,0 +1,15 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill read access, inline artifacts, authorized official-source browsing when available; no external mutation. Record actual source access and degradation..
+
+REQUEST
+DESIGN an internal support-draft assistant and DOCUMENT its technical plan for developers in one response. Reuse identifiers and context; do not require a preliminary full analysis or audit.
+
+SUPPLIED FACTS
+- EU-based team; tickets can contain contact information; approved articles are the only answer source.
+- REQ-X01: drafts only; no ticket updates or sends.
+- REQ-X02: cite an article or abstain; no vendor/model selected.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+None supplied.

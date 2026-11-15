@@ -1,0 +1,185 @@
+{
+  "case_id": "V1-A03",
+  "execution_window_utc": [
+    "2026-11-15T21:07:50.242553+00:00",
+    "2026-11-15T21:08:42.643959+00:00"
+  ],
+  "observed_source_urls": [
+    "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+    "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+  ],
+  "retrieval_events": [
+    {
+      "event_line": 9,
+      "event": {
+        "id": "exec-934182b0-ecdd-4083-93aa-409d464e9939",
+        "type": "web_search",
+        "query": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+        "action": {
+          "type": "open_page",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn0view0",
+            "snippet": "Total lines: 5976",
+            "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn0view1",
+            "snippet": "Total lines: 956",
+            "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn0view2",
+            "snippet": "Total lines: 2265",
+            "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.boe.es",
+            "ref_id": "turn0view3",
+            "snippet": "Total lines: 2859",
+            "title": "BOE-A-2018-16673 Ley Org\u00e1nica 3/2018, de 5 de diciembre, de Protecci\u00f3n de Datos Personales y garant\u00eda de los derechos digitales.",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+          }
+        ]
+      }
+    },
+    {
+      "event_line": 11,
+      "event": {
+        "id": "exec-a10df5eb-6d37-4d86-bf97-88b348515218",
+        "type": "web_search",
+        "query": "'2027'",
+        "action": {
+          "type": "find_in_page",
+          "pattern": "2027"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn1view0",
+            "snippet": "Total lines: 5976",
+            "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn1view1",
+            "snippet": "Total lines: 5976",
+            "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn1view2",
+            "snippet": "Total lines: 956",
+            "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn1view3",
+            "snippet": "Total lines: 2265",
+            "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn1view4",
+            "snippet": "Total lines: 2265",
+            "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn1view5",
+            "snippet": "Total lines: 5976",
+            "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          }
+        ]
+      }
+    },
+    {
+      "event_line": 13,
+      "event": {
+        "id": "exec-d545f1eb-31eb-4c30-be61-12e77baa0373",
+        "type": "web_search",
+        "query": "",
+        "action": {
+          "type": "other"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn2view0",
+            "snippet": "Total lines: 2265",
+            "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn2view1",
+            "snippet": "Total lines: 2265",
+            "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn2view2",
+            "snippet": "Total lines: 5976",
+            "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn2view3",
+            "snippet": "Total lines: 5976",
+            "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn2view4",
+            "snippet": "Total lines: 956",
+            "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+          }
+        ]
+      }
+    }
+  ],
+  "assistant_response_links": [
+    "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+    "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+  ],
+  "reviewer_sources": [],
+  "reviewer_legal_verification": "NOT PERFORMED; do not treat assistant links as reviewer verification",
+  "content_limit": "CLI JSONL retains web actions and result references/snippets, not complete retrieved page bodies. No independent reviewer legal retrieval performed."
+}

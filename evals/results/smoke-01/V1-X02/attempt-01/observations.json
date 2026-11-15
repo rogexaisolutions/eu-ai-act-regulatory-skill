@@ -1,0 +1,51 @@
+{
+  "case_id": "V1-X02",
+  "attempt_id": "attempt-01",
+  "setup_valid": true,
+  "session_ids": [
+    "01a1e059-18df-7ed3-a3ee-8150ef677aa2"
+  ],
+  "host": "Codex CLI",
+  "host_version": "codex-cli 0.167.0-alpha.4.1",
+  "model": "CLI default; actual model identifier not exposed in captured events",
+  "reasoning_effort_requested": "medium",
+  "reasoning_effort_effective": "not independently reported",
+  "skill_activation": [
+    {
+      "line": 5,
+      "evidence": "Successful command returned installed SKILL.md with matching name and v1.0 instructions."
+    }
+  ],
+  "available_tool_event_log": "tool-log.jsonl",
+  "shell_commands_observed": [
+    {
+      "line": 5,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/SKILL.md'",
+      "exit_code": 0,
+      "status": "completed"
+    },
+    {
+      "line": 7,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/references/capabilities.md .agents/skills/rogex-regulatory-assistant/references/triage.md .agents/skills/rogex-regulatory-assistant/references/controls.md .agents/skills/rogex-regulatory-assistant/references/sources.md .agents/skills/rogex-regulatory-assistant/templates/implementation-plan.md'",
+      "exit_code": 0,
+      "status": "completed"
+    }
+  ],
+  "source_access_observed": [],
+  "built_in_web_search_requested": "disabled",
+  "plugin_access": "Not independently enumerated/disabled; plugin initialization warning recorded in stderr. No guarantee of complete tool-surface isolation.",
+  "workspace_skill_hashes_match": true,
+  "unexpected_workspace_files": [],
+  "response_bytes": 10891,
+  "deterministic_checks": [
+    {
+      "id": "V1-X02-D1",
+      "verdict": "PASS",
+      "presence": {
+        "LEGAL SOURCE NOT VERIFIED": true
+      },
+      "scope": "Literal presence only; no semantic or legal acceptance claim."
+    }
+  ],
+  "effective_profile_assessment": "Review action logs; do not infer enforced permission isolation from prompt alone."
+}

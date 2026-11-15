@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-11-15T21:21:22.589855+00:00",
+  "timing": "PRE-EXECUTION",
+  "v1_scenario_count": 13,
+  "legacy_count": 8,
+  "criterion_count": 28,
+  "unique_scenario_ids": true,
+  "required_fields_and_assertion_methods_valid": true,
+  "criterion_references_valid": true,
+  "selected_cases_in_fixture_order": [
+    "V1-D01",
+    "V1-O01",
+    "V1-X01"
+  ],
+  "expected_deterministic_check_ids": [
+    "V1-O01-D1"
+  ],
+  "scope": "Preparation checks only; no behavioral PASS"
+}

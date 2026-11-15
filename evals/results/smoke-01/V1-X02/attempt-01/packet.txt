@@ -1,0 +1,16 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill read access and inline artifacts only; browsing/retrieval disabled at host permissions where possible. No claims of live legal verification..
+
+REQUEST
+Propose a bounded architecture and developer plan for a quotation-drafting assistant. Include regulatory considerations, but this session has no browsing or official-source access. Continue useful engineering work and state verification limits.
+
+SUPPLIED FACTS
+- Spain; supplier names and business email addresses are processed.
+- Human approval required before send; no payment or order tools.
+- No verified legal text or source excerpts supplied; static index may be read but is not current verification.
+- All artifacts are inline; environment profile forbids browsing/retrieval and file reads beyond the skill.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+None supplied.

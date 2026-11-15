@@ -1,0 +1,33 @@
+{
+  "case_id": "V1-D03",
+  "attempt_id": "attempt-01",
+  "command": [
+    "codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--sandbox",
+    "read-only",
+    "--color",
+    "never",
+    "--json",
+    "-c",
+    "model_reasoning_effort=\"medium\"",
+    "-c",
+    "web_search=\"live\"",
+    "-C",
+    "/var/folders/t5/zxfcg1ps70l4ynj76dvr0khm0000gn/T/rogex-smoke-01-37wbm84f/V1-D03",
+    "-o",
+    "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/smoke-01/V1-D03/attempt-01/response.md",
+    "-"
+  ],
+  "started_at_utc": "2026-11-15T17:52:47.943877+00:00",
+  "requested_reasoning_effort": "medium",
+  "requested_model": "CLI default",
+  "web_search_requested": "live",
+  "sandbox_requested": "read-only",
+  "config": "ignore user config and rules; ephemeral fresh session; normal authentication reused without reading credentials",
+  "timeout_seconds": 180
+}

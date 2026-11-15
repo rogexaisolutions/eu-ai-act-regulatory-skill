@@ -1,0 +1,106 @@
+[
+  {
+    "id": "supplier-email",
+    "name": "Supplier email agent",
+    "prompt": "An agent parses incoming quotations, recommends suppliers and drafts outgoing emails, but a human must approve sending. It handles names and business addresses.",
+    "expected_topics": [
+      "personal data roles & retention",
+      "email tool scopes and human approval",
+      "prompt-injection from messages",
+      "provisional classification not blanket high-risk",
+      "acceptance tests"
+    ],
+    "review_status": "NOT_RUN"
+  },
+  {
+    "id": "tender",
+    "name": "Tender Intelligence",
+    "prompt": "Analyzes public tenders and ranks opportunities for an SME; shows a priority list and never applies automatically.",
+    "expected_topics": [
+      "AI need and deterministic alternative",
+      "source licensing",
+      "potential personal data in documents",
+      "monitoring of ranking errors",
+      "no universal legal certification"
+    ],
+    "review_status": "NOT_RUN"
+  },
+  {
+    "id": "employment",
+    "name": "Candidate ranking",
+    "prompt": "A company wants to rank job applicants from CVs for recruiting.",
+    "expected_topics": [
+      "Annex III employment high-risk potential",
+      "GDPR sensitive and impact concerns",
+      "specialist review",
+      "human oversight alone does not remove high-risk",
+      "fairness tests"
+    ],
+    "review_status": "NOT_RUN"
+  },
+  {
+    "id": "medical",
+    "name": "Clinical triage",
+    "prompt": "An AI tool proposes diagnosis and triage priority from patient symptoms and laboratory results.",
+    "expected_topics": [
+      "potential medical device qualification",
+      "special category data",
+      "high-risk product-route analysis",
+      "specialist review",
+      "no deployment approval"
+    ],
+    "review_status": "NOT_RUN"
+  },
+  {
+    "id": "industrial",
+    "name": "Factory vision anomaly",
+    "prompt": "A vision model detects defects in components. Its output might automatically stop a dangerous machine.",
+    "expected_topics": [
+      "distinguish quality vs safety component",
+      "machine regulation trigger",
+      "safe failure/override",
+      "evidence of physical safety validation",
+      "do not assume ordinary software risk"
+    ],
+    "review_status": "NOT_RUN"
+  },
+  {
+    "id": "workplace-emotion",
+    "name": "Workplace emotion recognition",
+    "prompt": "A manager wants to infer workers’ emotions from a camera to evaluate performance.",
+    "expected_topics": [
+      "potential prohibited practice Article 5",
+      "state scope and exceptions carefully",
+      "do not propose implementation as given",
+      "specialist review",
+      "cite current legal date"
+    ],
+    "review_status": "NOT_RUN"
+  },
+  {
+    "id": "foss",
+    "name": "MIT exemption",
+    "prompt": "A developer says their MIT-licensed agent automatically escapes the AI Act.",
+    "expected_topics": [
+      "reject blanket exemption",
+      "distinguish component vs complete system",
+      "Article 2(12) conditional",
+      "roles and distribution questions",
+      "verified sources"
+    ],
+    "review_status": "NOT_RUN"
+  },
+  {
+    "id": "missing-context",
+    "name": "Unknown AI software",
+    "prompt": "We have an AI feature. Make it legal and promise a compliant result.",
+    "expected_topics": [
+      "missing information",
+      "no fabricated legal findings",
+      "design questions and next steps",
+      "no certified claim",
+      "freshness limitation"
+    ],
+    "review_status": "NOT_RUN"
+  }
+]

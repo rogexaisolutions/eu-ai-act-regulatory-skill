@@ -1,0 +1,124 @@
+{
+  "distribution_version": "0.1.0",
+  "status": "experimental; unpublished; license undecided",
+  "packaging_date": "2026-11-16",
+  "provenance": {
+    "source": ".agents/skills/rogex-regulatory-assistant/",
+    "git_revision": null,
+    "git_state": "no HEAD commit; uncommitted source snapshot",
+    "method": "allowlisted byte-for-byte copy; no canonical modifications",
+    "validation_scope": "structural packaging only; no new behavioral or legal validation"
+  },
+  "hash_algorithm": "SHA-256",
+  "scope": "All proposed repository files except MANIFEST.json itself, plus sibling standalone ZIP. Paths relative to public-repository/. Self excluded to avoid recursive hashing.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 760,
+      "sha256": "d4481b39c5fa28361c183b81dc890cd8177fa6b2f6263cb0602e62ea80b23d11",
+      "origin": "generated distribution documentation"
+    },
+    {
+      "path": "LICENSE-DECISION.md",
+      "bytes": 1925,
+      "sha256": "354172d103f3504418d9564fa4c480d0e69ba6b39534ba4b66bd41848003d8da",
+      "origin": "generated distribution documentation"
+    },
+    {
+      "path": "LINK-CHECKS.json",
+      "bytes": 3014,
+      "sha256": "8d87973eedd8a54e0a64e9d1945413ecbcca7381348b5f33019426e20129b514",
+      "origin": "generated distribution documentation"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4205,
+      "sha256": "e2c74d1c7f125f80c2b62b13e9ebba8bc48bd09f7d4cefc024c6ab3a3570e712",
+      "origin": "generated distribution documentation"
+    },
+    {
+      "path": "REPOSITORY-LAYOUT.md",
+      "bytes": 741,
+      "sha256": "fb48307315f5171583f1add2c329b19d275954b52c24487bfcd29a9a27376509",
+      "origin": "generated distribution documentation"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 3175,
+      "sha256": "f40b81188f59981635278130fd8112924e47c0fe5354974d55927c86a3ce37ab",
+      "origin": "generated distribution documentation"
+    },
+    {
+      "path": "rogex-regulatory-assistant/SKILL.md",
+      "bytes": 11056,
+      "sha256": "ba09f92f82d510126eb42e672ca917ce075aa7840defa054fc29a5964933ae47",
+      "origin": ".agents/skills/rogex-regulatory-assistant/SKILL.md"
+    },
+    {
+      "path": "rogex-regulatory-assistant/references/capabilities.md",
+      "bytes": 5951,
+      "sha256": "94315e3956f9c95807cbce662069cc637686a791b805ff1133d2e04511476d72",
+      "origin": ".agents/skills/rogex-regulatory-assistant/references/capabilities.md"
+    },
+    {
+      "path": "rogex-regulatory-assistant/references/controls.md",
+      "bytes": 2619,
+      "sha256": "494706d7e2d2bdcefb719de50ab40b9aa2dd940edacc425637bacc546cb54596",
+      "origin": ".agents/skills/rogex-regulatory-assistant/references/controls.md"
+    },
+    {
+      "path": "rogex-regulatory-assistant/references/regulatory-review.md",
+      "bytes": 3948,
+      "sha256": "9152dec6bc656d772e6a4dfb057d4e7ee98dbc55f59cb74cdc12e6ac492a5194",
+      "origin": ".agents/skills/rogex-regulatory-assistant/references/regulatory-review.md"
+    },
+    {
+      "path": "rogex-regulatory-assistant/references/sources.md",
+      "bytes": 4356,
+      "sha256": "5d817a3b323844dffc8cb5cde7e63dec25ca8fbf320d84c70e62948641b2eaa9",
+      "origin": ".agents/skills/rogex-regulatory-assistant/references/sources.md"
+    },
+    {
+      "path": "rogex-regulatory-assistant/references/triage.md",
+      "bytes": 2955,
+      "sha256": "504c5aa6412a01cafba3e5834a86e2b5fb120b67be4c60d43d5a36b43e6a9aa4",
+      "origin": ".agents/skills/rogex-regulatory-assistant/references/triage.md"
+    },
+    {
+      "path": "rogex-regulatory-assistant/templates/design-review.md",
+      "bytes": 1407,
+      "sha256": "0aa5a8984bc848530c9b73ea10f5bc0faa4a340f6d6c1281c9bca4e60f16826b",
+      "origin": ".agents/skills/rogex-regulatory-assistant/templates/design-review.md"
+    },
+    {
+      "path": "rogex-regulatory-assistant/templates/implementation-plan.md",
+      "bytes": 2109,
+      "sha256": "f233f6f70d30acaa8083dcdedbf52c84622b7696521375595b476f0c9b8ad775",
+      "origin": ".agents/skills/rogex-regulatory-assistant/templates/implementation-plan.md"
+    },
+    {
+      "path": "rogex-regulatory-assistant/templates/improvement-plan.md",
+      "bytes": 1879,
+      "sha256": "8c914d6d6b60d3efd0ef59b99e4b98508e8858474a4dfcb6bb0fde98864dd19e",
+      "origin": ".agents/skills/rogex-regulatory-assistant/templates/improvement-plan.md"
+    },
+    {
+      "path": "rogex-regulatory-assistant/templates/regulatory-review.md",
+      "bytes": 1914,
+      "sha256": "6e141741fc0d151192f4cff13006e40eb4790c49627309aa96f6a6805419be25",
+      "origin": ".agents/skills/rogex-regulatory-assistant/templates/regulatory-review.md"
+    },
+    {
+      "path": "rogex-regulatory-assistant/templates/technical-document.md",
+      "bytes": 1660,
+      "sha256": "060c50690b426eba2ea2456a247ff0e12d51d372597be091d9db13ba893753da",
+      "origin": ".agents/skills/rogex-regulatory-assistant/templates/technical-document.md"
+    }
+  ],
+  "archive": {
+    "path": "../rogex-regulatory-assistant-0.1.0-experimental.zip",
+    "bytes": 20385,
+    "sha256": "63c619f0de30ed17867762926db1e5337fe200f5f9ec43b9f90810f71d8b9842",
+    "contents": "standalone skill folder only"
+  }
+}

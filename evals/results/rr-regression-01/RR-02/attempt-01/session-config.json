@@ -1,0 +1,15 @@
+{
+  "scenario": "RR-02",
+  "thread_id": "01a1e152-a97d-7691-b4bb-d803d3270247",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED",
+  "effective_reasoning_effort": "UNVERIFIED",
+  "environment_profile": "ONLINE",
+  "model_sandbox": "read-only",
+  "fresh_ephemeral_session": true,
+  "packet_sha256": "0c1c3d00d16c5cd869664a76f0dff5d2a01bd8c8eca1f107d2362b4a5718cc2a",
+  "response_sha256": "5faf49656be8e3c6ec5a4817cd271e3ae7436b6b026a5ea2b9bd4ef11516c685",
+  "user_config_loaded": true,
+  "additional_plugins_may_be_visible": true
+}

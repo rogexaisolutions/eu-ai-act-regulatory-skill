@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "codex",
+    "exec",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--json",
+    "--model",
+    "gpt-6-luna",
+    "--config",
+    "model_reasoning_effort=\"low\"",
+    "--sandbox",
+    "read-only",
+    "--cd",
+    "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-smoke-01/RR-03/isolated-workspace",
+    "-"
+  ],
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED",
+  "effective_reasoning_effort": "UNVERIFIED",
+  "reasoning_setting_explicitly_passed": true,
+  "cwd": "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-smoke-01/RR-03/isolated-workspace",
+  "packet_sha256": "1bcdd01081ab81ebdaf978c6fb8042f90ebd3ae76dfc47e180de5508e6db1764",
+  "fresh_ephemeral_session": true,
+  "attempt_reason": "attempt-01 remained an unused preparation scaffold; new attempt preserves it"
+}

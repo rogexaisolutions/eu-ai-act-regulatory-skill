@@ -1,0 +1,48 @@
+{
+  "checked_at_utc": "2026-11-15T21:15:08.391237+00:00",
+  "timing": "Post-execution structural verification; not represented as a preflight check",
+  "v1_scenario_count": 13,
+  "unique_ids": true,
+  "required_fields_present": true,
+  "criterion_references_valid": true,
+  "selected_cases": [
+    "V1-A02",
+    "V1-A03",
+    "V1-D02",
+    "V1-I02",
+    "V1-O03"
+  ],
+  "selected_criterion_ids": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "C1",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "O1",
+    "O2",
+    "O3",
+    "O4",
+    "O5"
+  ],
+  "unmapped_criteria": [
+    "C2"
+  ],
+  "deterministic_checks_selected": 0
+}

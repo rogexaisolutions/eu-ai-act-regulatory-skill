@@ -1,0 +1,16 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill and inline synthetic artifacts; official-source browsing permitted when available; no mutation.
+
+REQUEST
+REGULATORY REVIEW the supplied synthetic assessment for the approved manual-search component only. State what the evidence supports within scope and identify material unresolved items.
+
+SUPPLIED FACTS
+Finnish internal support team; component v2.1 retrieves approved equipment-manual passages for staff. Scope is source attribution only; exclude deployment operations and other legal regimes.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-RR-01]
+Fictional exercise authority, not real law: FE-1 Article 4 requires each answer to link its exact approved paragraph. Fictional official source https://example.invalid/fe1, text v1.2, verified 2026-10-01, application 2026-01-01; actor provider Acme Oy. E-1 inspected v2.1 test report dated 2026-10-02: all scoped source-link tests passed, with cases and traces. E-2 inspected approved corpus manifest rev 7 matches tested corpus. No other obligation asserted.
+
+Exercise boundary: FE-1 and its metadata are stipulated fictional inputs solely for conditional obligation/evidence reasoning. The .invalid URI cannot verify an official source. Do not describe FE-1 as real, current, verified EU law or use it to support a real-world legal finding. Any conclusion about FE-1 is hypothetical under the exercise assumptions only.

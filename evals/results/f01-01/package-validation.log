@@ -1,0 +1,3 @@
+PASS: 11 local Markdown resource links resolve within the skill.
+PASS: package layout and 8 unexecuted scenario fixtures validated.
+NOT TESTED: model behavior, legal correctness, source freshness, Claude/Codex execution.

@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "codex",
+    "exec",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--json",
+    "--model",
+    "gpt-6.1-sol",
+    "--config",
+    "model_reasoning_effort=\"low\"",
+    "--sandbox",
+    "read-only",
+    "--cd",
+    "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-regression-01/RR-06/isolated-workspace",
+    "-"
+  ],
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED",
+  "effective_reasoning_effort": "UNVERIFIED",
+  "reasoning_setting_explicitly_passed": true,
+  "session": "fresh ephemeral",
+  "sandbox": "read-only",
+  "cwd": "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-regression-01/RR-06/isolated-workspace",
+  "packet_sha256": "711437f6e2e11b50bfc9cfd0d3f5e05f9b149b22b62feb8a19839dfe87f7f817",
+  "official_source_browsing": "enabled via configured browser/search plugin; actual retrieval to be verified from event logs"
+}

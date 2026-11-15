@@ -1,0 +1,17 @@
+{
+  "scenario": "RR-04",
+  "thread_id": "01a1e15d-0c6b-76a3-9cf2-171c95018d2b",
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED",
+  "effective_reasoning_effort": "UNVERIFIED",
+  "environment_profile": "OFFLINE",
+  "fresh_ephemeral_session": true,
+  "model_sandbox": "read-only",
+  "packet_sha256": "271aeb59625e8f0f6e7c4d4222957363a0130bc83f2f2fb274e1d7d1d7547b69",
+  "response_sha256": "f52903ee627b115a27d5941e5209e91d7cf2598dbb6a9a0cbbf115f7dd000e07",
+  "user_config_loaded": false,
+  "ignore_user_config": true,
+  "other_plugins_may_be_visible": false,
+  "web_search_events": 0
+}

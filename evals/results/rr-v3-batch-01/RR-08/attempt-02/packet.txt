@@ -1,0 +1,14 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill and inline synthetic artifacts; official-source browsing permitted when available; no mutation.
+
+REQUEST
+REGULATORY REVIEW the implemented release within the stated scope. Verify official provider requirements and timing, map mixed evidence to obligations and propose proportionate corrective actions. Assess readiness for the planned external release, not general certification.
+
+SUPPLIED FACTS
+Assessment date 2026-11-15. Finnish RecruitWorks Oy builds and brands a CV-ranking AI system evaluating applicants for employment; a customer employer will operate it. Release 2.0 is implemented in an internal synthetic-data lab only, never marketed or put into service. External release planned 2028-01-15. Assess Articles 9-17 and relevant provider evidence; broader conformity procedures may be identified as a separate review boundary.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-RR-08]
+E-81 inspected technical-document index rev 2 covers release 1.0, not implemented release 2.0; change log says new training corpus and ranking model, update planned. E-82 supplied executed test report for 2.0 includes accuracy cases and results but no robustness or cybersecurity tests. E-83 supplied risk-register draft lists bias and incorrect ranking; owners and residual-risk decisions blank. E-84 provider states no quality management procedure has yet been adopted. E-85 no training-data provenance records or human-oversight usability evidence supplied. No real applicants or live pilot.

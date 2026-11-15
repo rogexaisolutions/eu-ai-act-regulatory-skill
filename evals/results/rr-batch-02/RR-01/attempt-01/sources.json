@@ -1,0 +1,6 @@
+{
+  "scenario": "RR-01",
+  "retrieval_observed": false,
+  "events": [],
+  "note": "No legal source retrieval event observed; fictional .invalid URI was not retrieved."
+}

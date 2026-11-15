@@ -1,0 +1,13 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill and inline synthetic artifacts; official-source browsing permitted when available; no mutation.
+
+REQUEST
+DESIGN a preliminary architecture for an internal assistant that searches an approved equipment manual and returns cited passages. Include proportionate regulatory considerations, tasks and acceptance tests.
+
+SUPPLIED FACTS
+Small EU facilities team, internal users, no sensitive data expected in manual queries, no external actions or writes. Approved manual is sole answer source. No prior review exists; request is for design and development planning.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+None supplied.

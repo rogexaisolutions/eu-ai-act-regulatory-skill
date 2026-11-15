@@ -1,0 +1,14 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill and inline synthetic artifacts; official-source browsing permitted when available; no mutation.
+
+REQUEST
+REGULATORY REVIEW this proposed recruitment system. Assess classification, exceptions, actor responsibilities and application timing, verifying official sources online. Identify facts needed before reliance.
+
+SUPPLIED FACTS
+Assessment date 2026-11-15. Belgian TalentLens NV develops and supplies its own branded AI recruitment service to Dutch employer Harbor BV. First market release and use planned for 2028-01-15; no earlier release.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-RR-07]
+E-71 intended-purpose draft rev 2: model scores applicant CVs for job suitability and filters the lowest-ranked half before recruiters see a shortlist. Recruiters may override scores but normally review only shortlisted candidates. E-72 supplier brochure calls it administrative assistance, claiming human review makes it low risk; no exception analysis or profiling assessment supplied. No candidates have been processed.

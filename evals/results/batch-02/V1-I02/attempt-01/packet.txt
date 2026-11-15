@@ -1,0 +1,19 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill read access, inline artifacts, authorized official-source browsing when available; no external mutation. Record actual source access and degradation..
+
+REQUEST
+IMPROVE this proposed change relative to b3. A vendor asks for all-mailbox read/write instead of per-folder read access. Review tradeoffs and propose the minimum change plan; do not access any mailbox.
+
+SUPPLIED FACTS
+- Baseline processes quotations from one team folder, draft-only, within the EU.
+- Proposal includes HR folders and external model processing in an unspecified region.
+- No new contracts, approvals or retention decisions supplied.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-I02]
+Baseline b3: REQ-P01 = read quotations folder only; no write scope.
+CTRL-P01 = folder-scoped token, implementation reported by user, not independently inspected.
+Change proposal: tenant-wide read/write + HR folder ingestion.
+TEST-P01 = no results supplied.

@@ -1,0 +1,8 @@
+{
+  "case_id": "V1-A01",
+  "attempt_id": "attempt-02",
+  "setup_valid": false,
+  "model_launched": false,
+  "error": "Harness attempted to read packet from retry directory before copying it; FileNotFoundError. No subprocess launched. Corrected runner uses original unchanged packet.",
+  "status": "NOT ASSESSED"
+}

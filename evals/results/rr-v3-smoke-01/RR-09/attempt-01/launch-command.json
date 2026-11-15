@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "codex",
+    "exec",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--json",
+    "--model",
+    "gpt-6.1-sol",
+    "--config",
+    "model_reasoning_effort=\"low\"",
+    "--sandbox",
+    "read-only",
+    "--cd",
+    "/Users/martacaula/Documents/ChatGPT/ROGEX-Regulatory-Assistant/evals/results/rr-v3-smoke-01/RR-09/isolated-workspace",
+    "-"
+  ],
+  "started_utc": "2026-11-15T22:52:55.911949+00:00",
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "low",
+  "effective_model": "UNVERIFIED",
+  "effective_effort": "UNVERIFIED",
+  "profile": "ONLINE"
+}

@@ -1,0 +1,61 @@
+{
+  "case_id": "V1-X02",
+  "setup_valid": true,
+  "session_ids": [
+    "01a1e062-e8fd-70a2-88ea-5c51e1e65949"
+  ],
+  "skill_activation_completed_event_lines": [
+    5
+  ],
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "low",
+  "effective_model": "UNVERIFIED: not exposed in captured events",
+  "effective_reasoning_effort": "UNVERIFIED: not exposed in captured events",
+  "shell_commands_observed": [
+    {
+      "line": 5,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/SKILL.md'",
+      "exit_code": 0
+    },
+    {
+      "line": 7,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/templates/implementation-plan.md'",
+      "exit_code": 0
+    },
+    {
+      "line": 10,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/references/sources.md'",
+      "exit_code": 0
+    },
+    {
+      "line": 13,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/references/triage.md'",
+      "exit_code": 0
+    },
+    {
+      "line": 14,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/references/controls.md'",
+      "exit_code": 0
+    },
+    {
+      "line": 15,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/references/capabilities.md'",
+      "exit_code": 0
+    }
+  ],
+  "source_actions_observed": [],
+  "deterministic_checks": [
+    {
+      "id": "V1-X02-D1",
+      "presence": {
+        "LEGAL SOURCE NOT VERIFIED": true
+      },
+      "verdict": "PASS",
+      "limit": "Literal presence only"
+    }
+  ],
+  "isolated_skill_hash_match": true,
+  "extra_workspace_files": [],
+  "response_matches_final_event": true,
+  "tool_access_limit": "Read-only shell requested. Built-in web search disabled for X02/live for D01. Runtime plugin initialization warnings remain; no claim all connector surfaces independently disabled."
+}

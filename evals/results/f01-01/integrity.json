@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-11-15T18:08:54.520322+00:00",
+  "changed_preexisting_files": [
+    ".agents/skills/rogex-regulatory-assistant/SKILL.md"
+  ],
+  "round_frozen_file_changes": [],
+  "previous_results_fixtures_and_approved_specification": "UNCHANGED",
+  "verdict": "PASS"
+}

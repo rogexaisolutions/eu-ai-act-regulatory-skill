@@ -1,0 +1,7 @@
+{
+  "status": "SETUP_FAILURE_NO_MODEL_RESPONSE",
+  "codex_invocation_started": true,
+  "reason": "Codex CLI could not initialize because access to /Users/martacaula/.codex/memories_1.sqlite/runtime state was denied by sandbox.",
+  "exit_code": "1",
+  "retry": "A separate attempt-02 ran the same requested model and effort after approved access to Codex runtime state; no model escalation."
+}

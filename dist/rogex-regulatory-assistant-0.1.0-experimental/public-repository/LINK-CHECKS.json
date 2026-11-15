@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-16",
+  "scope": "HTTP reachability only; no legal-source verification",
+  "checks": [
+    {
+      "url": "https://agentskills.io/specification",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act-explorer",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/eu-ai-act-compliance-checker",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/skills",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://developers.openai.com/codex/skills",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2017/745/oj",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2017/746/oj",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://opensource.org/license/mit",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://www.aepd.es/",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+      "result": "unverified",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ]
+}

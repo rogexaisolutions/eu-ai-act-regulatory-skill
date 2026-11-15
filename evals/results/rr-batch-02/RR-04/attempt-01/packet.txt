@@ -1,0 +1,14 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill and inline context only; external retrieval prohibited; report source limits.
+
+REQUEST
+REGULATORY REVIEW this synthetic proposal using only supplied context. Official legal sources are unavailable. Give provisional screening, missing facts and specialist questions while stating source limits.
+
+SUPPLIED FACTS
+EU manufacturer plans camera defect detection that may request a factory machine stop. No equipment connection authorized.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-RR-04]
+Boundary between quality inspection and safety component undecided. Manufacturer, integrator and deployer roles may overlap; contracts unsigned. No intended-purpose statement, hazard analysis or interface design. Browsing and official-source access unavailable; no legal excerpts supplied. A stale cached index mentions AI Act Article 6 and Annex I but is not current verification.

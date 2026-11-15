@@ -1,0 +1,106 @@
+{
+  "case_id": "V1-D02",
+  "execution_window_utc": [
+    "2026-11-15T21:08:42.649693+00:00",
+    "2026-11-15T21:09:55.536501+00:00"
+  ],
+  "observed_source_urls": [
+    "https://eur-lex.europa.eu/eli/reg/2023/1230/oj",
+    "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+    "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+  ],
+  "retrieval_events": [
+    {
+      "event_line": 9,
+      "event": {
+        "id": "exec-7d109beb-74d4-4c9f-9330-9c36e371fcff",
+        "type": "web_search",
+        "query": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+        "action": {
+          "type": "open_page",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn0view0",
+            "snippet": "Total lines: 5976",
+            "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn0view1",
+            "snippet": "Total lines: 956",
+            "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn0view2",
+            "snippet": "Total lines: 2999",
+            "title": "Regulation - 2023/1230 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj"
+          }
+        ]
+      }
+    },
+    {
+      "event_line": 11,
+      "event": {
+        "id": "exec-3b494e79-a99b-4015-bc4c-066ad7098d10",
+        "type": "web_search",
+        "query": "'Article 6'",
+        "action": {
+          "type": "find_in_page",
+          "pattern": "Article 6"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn1view0",
+            "snippet": "Total lines: 5976",
+            "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn1view1",
+            "snippet": "Total lines: 5976",
+            "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn1view2",
+            "snippet": "Total lines: 956",
+            "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+          },
+          {
+            "type": "text_result",
+            "domain": "eur-lex.europa.eu",
+            "ref_id": "turn1view3",
+            "snippet": "Total lines: 2999",
+            "title": "Regulation - 2023/1230 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj"
+          }
+        ]
+      }
+    }
+  ],
+  "assistant_response_links": [
+    "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+    "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+    "https://eur-lex.europa.eu/eli/reg/2023/1230/oj"
+  ],
+  "reviewer_sources": [],
+  "reviewer_legal_verification": "NOT PERFORMED; do not treat assistant links as reviewer verification",
+  "content_limit": "CLI JSONL retains web actions and result references/snippets, not complete retrieved page bodies. No independent reviewer legal retrieval performed."
+}

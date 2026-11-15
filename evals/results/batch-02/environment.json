@@ -1,0 +1,31 @@
+{
+  "recorded_at_utc": "2026-11-15T21:13:48.271410+00:00",
+  "host": "codex-cli 0.169.0-alpha.11.1",
+  "os": "macOS-15.1-arm64-arm-64bit",
+  "system_language": "not independently captured; case packets and outputs English",
+  "repository_commit": "HEAD",
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "low",
+  "effective_model": "UNVERIFIED: absent from captured runtime events",
+  "effective_effort": "UNVERIFIED: absent from captured runtime events",
+  "host_timezone": "UTC timestamps retained; user timezone Europe/Madrid",
+  "installation_paths": {
+    "V1-A02": "/var/folders/t5/zxfcg1ps70l4ynj76dvr0khm0000gn/T/rogex-batch-02-ekoxwud1/V1-A02/.agents/skills/rogex-regulatory-assistant",
+    "V1-A03": "/var/folders/t5/zxfcg1ps70l4ynj76dvr0khm0000gn/T/rogex-batch-02-ekoxwud1/V1-A03/.agents/skills/rogex-regulatory-assistant",
+    "V1-D02": "/var/folders/t5/zxfcg1ps70l4ynj76dvr0khm0000gn/T/rogex-batch-02-ekoxwud1/V1-D02/.agents/skills/rogex-regulatory-assistant",
+    "V1-I02": "/var/folders/t5/zxfcg1ps70l4ynj76dvr0khm0000gn/T/rogex-batch-02-ekoxwud1/V1-I02/.agents/skills/rogex-regulatory-assistant",
+    "V1-O03": "/var/folders/t5/zxfcg1ps70l4ynj76dvr0khm0000gn/T/rogex-batch-02-ekoxwud1/V1-O03/.agents/skills/rogex-regulatory-assistant"
+  },
+  "isolation": "Fresh temporary workspace and ephemeral CLI invocation per attempt, no prior transcripts or expectations in packets. Same hashed skill copies. ignore-user-config and ignore-rules set. Full hidden host instruction/memory isolation not independently verifiable.",
+  "permissions": "Outer attempt-01 sandbox blocked initialization; authorized elevated outer process for attempt-02. Model child read-only sandbox unchanged. No higher reasoning effort attempted.",
+  "environment_profiles": {
+    "ONLINE": "Skill read access, inline artifacts, authorized official-source browsing when available; no external mutation. Record actual source access and degradation.",
+    "CONTEXT_ONLY": "Skill read access and inline artifacts only; no external file inspection or browsing. Request missing context as needed.",
+    "OFFLINE": "Skill read access and inline artifacts only; browsing/retrieval disabled at host permissions where possible. No claims of live legal verification."
+  },
+  "actual_access": "Only installed skill reads and official-source web events observed. A02 no browsing attempts; O03 ONLINE available but unused. Shell filesystem reads not restricted to an explicit allowlist.",
+  "startup_limits": "All retry stderr logs show state-db fallback and remote installed-plugin synchronization warning. Plugin initialization is host infrastructure, not a model tool call; no guarantee of fully disabled connector surfaces or network-isolated startup. No connector action appears in model action logs.",
+  "other_injected_instructions": "Codex built-in host instructions and discovered plugin/skill environment not fully exposed in event stream; no extra project instructions copied.",
+  "source_capture_limit": "Web event URLs, references and snippets preserved, full page bodies not exposed by CLI JSONL. Reviewer did not independently verify law.",
+  "human_review": "PENDING"
+}

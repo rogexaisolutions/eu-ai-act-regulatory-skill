@@ -1,0 +1,15 @@
+--- v1.0/SKILL.md
++++ f01-corrected/SKILL.md
+@@ -37,8 +37,10 @@
+ |---|---|
+ | LEGAL OBLIGATION | Verified applicable requirement: official source/provision, jurisdiction, text/version, verification and relevant application dates, actor and applicability rationale |
+ | POTENTIAL LEGAL OBLIGATION | Applicability or currency unresolved: candidate source if available, missing facts, limitation and action to resolve |
+-| ENGINEERING RECOMMENDATION | Voluntary practice: risk/objective, rationale, tradeoffs and proposed validation |
+-| PROJECT REQUIREMENT | User, contractual or organizational constraint: supplied requirement/artifact, origin and owner if known |
++| ENGINEERING RECOMMENDATION | Technical safeguard or design choice proposed by the assistant: risk/objective, rationale, tradeoffs and proposed validation |
++| PROJECT REQUIREMENT | Requirement supplied by the user, organization or contract: original wording and identifier, source/artifact, origin and owner if known |
++
++Preserve the original wording and identifiers of supplied requirements; link any interpretation or proposed implementation as a separate item rather than rewriting the source requirement. A proposed architecture decision or safeguard remains ENGINEERING RECOMMENDATION unless an explicit supplied user, organizational or contractual decision establishes it as a project constraint; record that source. Do not infer a project requirement from a stricter design choice, an assumption, or its usefulness in satisfying another requirement. Each backlog row must have one basis and a traceable origin: split mixed-basis requirements and proposed decisions into separate stable-ID items and link them. Before finalizing, check each PROJECT REQUIREMENT against its supplied source; keep unsupported proposals separate.
+ 
+ Read [references/sources.md](references/sources.md) when making legal claims. Verify current official text using available host tools before treating an obligation as verified. Distinguish entry into force from application, and legislation from guidance, standards and proposals. A static index is not proof of currency. If verification is unavailable, state `LEGAL SOURCE NOT VERIFIED`, use provisional applicability and continue useful engineering work where possible. Do not infer blanket AI Act exemption from MIT/FOSS licensing.
+ 

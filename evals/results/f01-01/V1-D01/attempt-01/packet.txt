@@ -1,0 +1,19 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill read access, inline artifacts, authorized official-source browsing when available; no external mutation. Record actual source access and degradation..
+
+REQUEST
+DESIGN a buildable supplier-email assistant from this brief. Give architecture, tasks, dependencies and acceptance tests. No ANALYZE report or audit exists.
+
+SUPPLIED FACTS
+- Spain; incoming quotations contain business contact names/addresses.
+- REQ-S01: human approval required for every outgoing message.
+- No purchase orders or payments; no real mailbox or vendor access authorized.
+- Latency target is undecided; outbound integration and retention contract are undecided.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-S01]
+REQ-S01: draft -> named human review -> approved send.
+REQ-S02: never create purchase orders.
+TEST-S01: NOT RUN; no implementation evidence.

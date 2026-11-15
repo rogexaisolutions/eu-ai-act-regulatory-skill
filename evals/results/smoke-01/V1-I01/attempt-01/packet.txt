@@ -1,0 +1,19 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill read access, inline artifacts, authorized official-source browsing when available; no external mutation. Record actual source access and degradation..
+
+REQUEST
+IMPROVE baseline b7 to address duplicate draft requests after a timeout. Propose changes only; compare before/after, tradeoffs, regression checks and recovery.
+
+SUPPLIED FACTS
+- Synthetic incident and snippet only; no repository or service access.
+- Business priority: prevent duplicate requests without silently dropping legitimate retries.
+- No fix has been implemented or timed.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-I01]
+Baseline b7: on timeout, retry createDraft(payload) with a fresh request ID.
+Incident INC-17: one timeout followed by two draft IDs for the same quotation.
+TEST-I01: a synthetic supplied regression result reproduces duplication; not a test executed by this session.
+REQ-I01: preserve human approval before send.

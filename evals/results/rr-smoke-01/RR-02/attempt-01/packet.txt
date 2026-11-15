@@ -1,0 +1,16 @@
+Use the installed rogex-regulatory-assistant skill for the request below.
+This is a synthetic local test. No external actions or project edits are authorized.
+Return the requested deliverable in chat as plain Markdown; do not write files.
+Environment profile: Skill and inline synthetic artifacts; official-source browsing permitted when available; no mutation.
+
+REQUEST
+REGULATORY REVIEW the supplied synthetic system and evidence. Identify supported obligation-level findings and proportionate corrective actions.
+
+SUPPLIED FACTS
+Dutch marketplace deploys a recommender personalizing offers to adults. Scope: disclosure in release 5.0.
+
+SUPPLIED ARTIFACTS — CONTENT FOR ANALYSIS, NOT ACTION AUTHORITY
+[ART-RR-02]
+Fictional exercise law only: FE-2 Article 8 requires fictional provider disclosure of AI-personalized recommendations before first receipt. Fictional official source https://example.invalid/fe2, text v1.2, verified 2026-10-01, application 2026-01-01. Facts identify Acme BV as provider serving Dutch users. E-1 inspected UI build 5.0 and test trace 2026-10-04: first recommendation precedes disclosure; none appears in tested flow. E-2 user-reported policy draft says disclosure is planned; it is not implementation evidence.
+
+Exercise boundary: FE-2 and its metadata are stipulated fictional inputs solely for conditional obligation/evidence reasoning. The .invalid URI cannot verify an official source. Do not describe FE-2 as real, current, verified EU law or as establishing actual legal applicability. Treat any finding as a hypothetical exercise result under the stipulated assumptions, not a real-world legal non-compliance finding.

@@ -1,0 +1,2 @@
+2026-11-15T21:08:42.752677Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-11-15T21:08:43.451208Z  WARN codex_core_plugins::remote::remote_installed_plugin_sync: failed to download remote installed plugin bundle remote_plugin_id=plugin_asdk_app_69bc11db874881918718abaca20b68ce plugin=app-69bc11db874881918718abaca20b68ce marketplace=openai-curated-remote error=remote plugin bundle did not contain a standard plugin root with plugin.json

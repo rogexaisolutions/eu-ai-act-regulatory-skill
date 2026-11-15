@@ -1,0 +1,173 @@
+{
+  "case_id": "V1-A01",
+  "attempt_id": "attempt-03",
+  "setup_valid": true,
+  "session_ids": [
+    "01a1e056-6326-7ba2-b179-12f3fa10c9c8"
+  ],
+  "host": "Codex CLI",
+  "host_version": "codex-cli 0.167.0-alpha.4.1",
+  "model": "CLI default; actual model identifier not exposed in captured events",
+  "reasoning_effort_requested": "medium",
+  "reasoning_effort_effective": "not independently reported",
+  "skill_activation": [
+    {
+      "line": 5,
+      "evidence": "Successful command returned installed SKILL.md with matching name and v1.0 instructions."
+    }
+  ],
+  "available_tool_event_log": "tool-log.jsonl",
+  "shell_commands_observed": [
+    {
+      "line": 5,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/SKILL.md'",
+      "exit_code": 0,
+      "status": "completed"
+    },
+    {
+      "line": 7,
+      "command": "/bin/zsh -lc 'cat .agents/skills/rogex-regulatory-assistant/references/capabilities.md .agents/skills/rogex-regulatory-assistant/references/triage.md .agents/skills/rogex-regulatory-assistant/references/sources.md .agents/skills/rogex-regulatory-assistant/references/controls.md'",
+      "exit_code": 0,
+      "status": "completed"
+    }
+  ],
+  "source_access_observed": [
+    {
+      "line": 9,
+      "action": {
+        "type": "open_page",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view1",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn0view2",
+          "snippet": "Total lines: 2265",
+          "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        }
+      ]
+    },
+    {
+      "line": 11,
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Article 4"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view1",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view2",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view3",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view4",
+          "snippet": "Total lines: 2265",
+          "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn1view5",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        }
+      ]
+    },
+    {
+      "line": 13,
+      "action": {
+        "type": "other"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view0",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view1",
+          "snippet": "Total lines: 5976",
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view2",
+          "snippet": "Total lines: 956",
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "type": "text_result",
+          "domain": "eur-lex.europa.eu",
+          "ref_id": "turn2view3",
+          "snippet": "Total lines: 2265",
+          "title": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        }
+      ]
+    }
+  ],
+  "built_in_web_search_requested": "live",
+  "plugin_access": "Not independently enumerated/disabled; plugin initialization warning recorded in stderr. No guarantee of complete tool-surface isolation.",
+  "workspace_skill_hashes_match": true,
+  "unexpected_workspace_files": [],
+  "response_bytes": 4824,
+  "deterministic_checks": [],
+  "effective_profile_assessment": "Review action logs; do not infer enforced permission isolation from prompt alone."
+}
