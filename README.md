@@ -1,121 +1,86 @@
 # ROGEX Regulatory Skill — EU AI Act
 
-**Build AI systems with European regulatory requirements in mind.**
+**Design, build and review AI systems with European regulatory requirements in mind.**
 
-ROGEX Regulatory Skill is an AI Agent Skill for developers, engineers and product teams building AI systems and automations.
+ROGEX Regulatory Skill is an Agent Skill that helps developers, engineers and product teams build responsible AI systems.
 
-It helps teams **analyze, design, improve, document and review AI solutions** while identifying relevant EU AI Act requirements, regulatory risks, evidence gaps and practical engineering actions.
+It combines practical AI engineering with EU regulatory guidance, helping teams identify applicable requirements, make better technical decisions, document their systems and review potential compliance risks.
 
-Rather than treating compliance as a final checklist, it brings regulatory considerations into the development process.
+Instead of treating regulation as a final checklist, the skill brings it into the development process, from the first idea to an implemented system.
 
-Developed by **[ROGEX AI](https://rogexai.tech)**.
+**Built by [ROGEX AI](https://rogexai.tech).**
 
-**EU AI Act · Responsible AI · AI Engineering · Agent Skills**
+## What can you do with it?
 
----
+The skill provides five independent capabilities.
 
-## Why use it?
-
-Building AI systems involves more than selecting models, frameworks and infrastructure.
-
-Teams also need to understand which regulatory requirements may apply, what evidence is necessary and how to turn those requirements into practical engineering decisions.
-
-ROGEX Regulatory Skill helps you:
-
-- **Identify requirements early.** Screen potentially applicable EU AI Act provisions before critical design decisions are made.
-- **Build with safeguards.** Connect system requirements with architecture, technical controls and acceptance criteria.
-- **Review with evidence.** Distinguish verified facts, uncertain applicability, missing evidence and actual implementation gaps.
-- **Improve existing systems.** Identify weaknesses and prioritize practical improvements.
-- **Document decisions.** Produce structured technical documentation and traceable regulatory assessments.
-
-The goal is to make responsible AI engineering more practical, structured and actionable.
-
-## Five capabilities. One skill.
-
-| Capability | What it does |
+| Capability | What you get |
 |---|---|
-| **ANALYZE** | Understand an AI use case, its objectives, constraints, feasibility and potential risks. |
-| **DESIGN** | Plan AI architectures, workflows, safeguards, implementation tasks and acceptance tests. |
-| **IMPROVE** | Evaluate existing designs or implementations and propose evidence-based improvements. |
-| **DOCUMENT** | Create technical specifications, implementation documentation and decision records. |
-| **REGULATORY REVIEW** | Examine AI systems against potentially applicable EU AI Act requirements, identify evidence gaps and recommend corrective actions. |
+| **ANALYZE** | System assessment, technical constraints, risks and feasibility recommendations. |
+| **DESIGN** | AI architecture, workflows, safeguards, implementation plans and acceptance criteria. |
+| **IMPROVE** | Gap analysis, prioritized improvements and verification recommendations. |
+| **DOCUMENT** | Technical specifications, system documentation and traceable decision records. |
+| **REGULATORY REVIEW** | EU AI Act applicability screening, obligation mapping, evidence assessment and corrective actions. |
 
-Each capability can be used independently or combined with others.
+**Use one capability or combine several.** You don't need to complete a regulatory audit before designing or improving a system.
 
-A complete regulatory assessment is not required before every design or engineering task.
+## Why use ROGEX Regulatory Skill?
 
-## How it works
+Building an AI application is not just about making the technology work.
 
-The skill runs inside a compatible AI assistant and uses the project context, technical documentation and other materials you authorize.
+You also need to understand whether the system introduces legal, operational or safety risks, what obligations may apply and how to address those requirements in the actual implementation.
 
-**01 — Understand**
+The skill helps you:
 
-Identify the system's purpose, intended users, architecture, data flows and operating context.
+- Identify potentially applicable EU AI Act requirements early.
+- Design AI systems with appropriate safeguards and human oversight.
+- Translate regulatory objectives into engineering tasks and acceptance criteria.
+- Review implementations against documented requirements and evidence.
+- Separate actual gaps from missing information or uncertain applicability.
+- Produce documentation that supports technical and regulatory review.
 
-**02 — Analyze**
-
-Evaluate technical constraints, risks, relevant actors and potentially applicable regulatory requirements.
-
-**03 — Review**
-
-Examine the available evidence. Distinguish confirmed facts, uncertain legal applicability, missing information and documented gaps.
-
-**04 — Recommend**
-
-Propose proportionate technical controls, improvements, verification steps and acceptance criteria.
-
-**05 — Document**
-
-Produce structured outputs that support engineering decisions and further review.
-
-These steps describe the general approach, not a mandatory sequence for every request.
+The result is practical engineering guidance, not just a list of regulations.
 
 ## EU AI Act regulatory review
 
-The skill supports structured assessments involving:
+The REGULATORY REVIEW capability examines an AI system within its actual context.
 
-- EU AI Act scope and AI-system classification.
-- Potentially prohibited practices under Article 5.
-- High-risk AI classification under Article 6 and relevant annexes.
-- Provider, deployer and other relevant operator responsibilities.
-- Transparency obligations where applicable.
-- Technical documentation, risk management, human oversight and evidence requirements.
-- Relevant application dates and transitional provisions.
-- GDPR and sector-specific regulatory considerations where triggered.
+Depending on the use case, it can address:
 
-Legal conclusions must be connected to relevant official sources, applicable actors, system purposes and dates.
+- Whether the system falls within the AI Act's scope.
+- Potentially prohibited AI practices.
+- High-risk classification and relevant exceptions.
+- Provider, deployer and other operator responsibilities.
+- Transparency and human oversight requirements.
+- Relevant risk management and technical documentation obligations.
+- Application dates and transitional provisions.
+- GDPR and sector-specific requirements where relevant.
 
-When current legal sources cannot be verified, the skill must explicitly communicate that limitation.
+**Evidence matters.**
 
-### Evidence-based findings
+The skill distinguishes between:
 
-The regulatory review distinguishes:
-
-| Classification | Meaning |
+| Status | Meaning |
 |---|---|
-| **LEGAL OBLIGATION** | A legal requirement verified as applicable to the reviewed system and context. |
+| **LEGAL OBLIGATION** | A verified requirement applicable to the specified actor and use case. |
 | **POTENTIAL LEGAL OBLIGATION** | A potentially relevant requirement whose applicability or source verification remains unresolved. |
-| **PROJECT REQUIREMENT** | A requirement originating from project objectives, stakeholder decisions or other project constraints. |
-| **ENGINEERING RECOMMENDATION** | A proposed technical or organizational improvement, not automatically a legal requirement. |
-| **NOT VERIFIED** | An evidence status indicating that a claim cannot yet be established from the available information. |
+| **PROJECT REQUIREMENT** | A requirement established by the project's objectives or constraints. |
+| **ENGINEERING RECOMMENDATION** | A proposed technical improvement, not necessarily a legal requirement. |
+| **NOT VERIFIED** | Insufficient evidence to establish the relevant claim. |
 
-The skill connects material findings with evidence, recommended actions and outstanding verification needs.
+It connects findings to their supporting evidence and proposes actions to resolve outstanding questions.
 
-It does not equate missing evidence with proven non-compliance.
-
----
+Missing evidence is not automatically treated as a legal violation.
 
 ## Installation
 
-ROGEX Regulatory Skill follows the [Agent Skills specification](https://agentskills.io/specification).
+ROGEX Regulatory Skill uses the [Agent Skills specification](https://agentskills.io/specification).
 
-Download the standalone package and extract the skill folder.
-
-Keep `SKILL.md`, `references/` and `templates/` together.
+Download the package and keep its `SKILL.md`, `references/` and `templates/` together.
 
 ### OpenAI Codex
 
-Copy the skill folder into your project's Agent Skills directory:
+Copy the complete folder to your project:
 
 ```text
 YOUR_PROJECT/
@@ -131,91 +96,108 @@ Start a new Codex session and request the skill.
 
 ### Claude Code
 
-Copy the same skill folder into:
+Copy the same folder to:
 
 ```text
 YOUR_PROJECT/.claude/skills/rogex-regulatory-assistant/
 ```
 
-Alternatively, install it in your user-level skills directory:
+For a user-level installation:
 
 ```text
 ~/.claude/skills/rogex-regulatory-assistant/
 ```
 
-Refer to the [Claude Code Skills documentation](https://code.claude.com/docs/en/skills) for current installation guidance.
+Refer to the [Claude Code documentation](https://code.claude.com/docs/en/skills) for host-specific instructions.
 
-**Compatibility note:** The skill uses portable Agent Skills files. Actual discovery, browsing capabilities and behavior depend on the host environment. Equivalent operation across hosts has not been independently validated.
+**Compatibility:** The skill follows the portable Agent Skills format. Actual activation, tool access and behavior depend on the host. Equivalent behavior across hosts has not yet been independently validated.
 
-## Usage examples
+## How to use it
 
-### Analyze an AI solution
+Work within your AI development project and request the capability you need.
 
-> Use the ROGEX Regulatory Skill in ANALYZE mode to assess this AI automation, identify technical constraints and determine whether AI is appropriate for the intended purpose.
+### 1. Analyze a proposed AI system
 
-### Design an AI system
+> Use rogex-regulatory-assistant in ANALYZE mode. Review this AI automation, evaluate whether AI is appropriate, identify relevant constraints and provide a practical feasibility assessment.
 
-> Use the ROGEX Regulatory Skill in DESIGN mode to propose an architecture for this AI agent, including safeguards, implementation tasks and acceptance tests.
+### 2. Design a new AI solution
 
-### Improve an existing implementation
+> Use rogex-regulatory-assistant in DESIGN mode. Design an AI agent for processing supplier requests. Include architecture, data flows, human approval controls, implementation tasks and acceptance tests.
 
-> Use the ROGEX Regulatory Skill in IMPROVE mode to review this system and recommend prioritized improvements based on the available evidence.
+### 3. Improve an existing implementation
 
-### Generate technical documentation
+> Use rogex-regulatory-assistant in IMPROVE mode. Inspect the available project files, identify technical weaknesses and propose prioritized improvements with verification criteria.
 
-> Use the ROGEX Regulatory Skill in DOCUMENT mode to prepare technical documentation from this project's architecture and implementation details.
+### 4. Generate technical documentation
 
-### Review EU AI Act requirements
+> Use rogex-regulatory-assistant in DOCUMENT mode. Produce structured technical documentation covering system architecture, components, data processing, technical decisions and known limitations.
 
-> Use the ROGEX Regulatory Skill in REGULATORY REVIEW mode to assess this AI system against potentially applicable EU AI Act requirements. Identify relevant provisions, actor responsibilities, evidence gaps, unresolved applicability and recommended actions. Use current official sources where available and distinguish legal obligations from engineering recommendations.
+### 5. Review EU AI Act requirements
 
----
+> Use rogex-regulatory-assistant in REGULATORY REVIEW mode. Review this AI system against potentially applicable EU AI Act requirements. Identify its likely classification, relevant actors, legal obligations, evidence gaps and recommended corrective actions. Verify current official sources where available and clearly distinguish unresolved questions.
 
-## Scope and limitations
+## Example: Reviewing an AI automation
+
+Consider an AI system that collects public procurement notices and prioritizes relevant opportunities for human review.
+
+The skill can examine the system's intended purpose, AI components, data flows, decision boundaries and available technical evidence.
+
+A regulatory review can produce:
+
+**System classification**
+
+An assessment of the AI Act provisions potentially relevant to the system's actual intended use.
+
+**Regulatory obligations**
+
+An obligation mapping that distinguishes verified applicability from unresolved questions.
+
+**Evidence assessment**
+
+A structured review of what the project documentation and implementation actually demonstrate.
+
+**Recommended actions**
+
+Technical or organizational improvements linked to identified risks, gaps and verification needs.
+
+This example illustrates the intended workflow. It is not a completed legal audit or certification of the example system.
+
+## What's included
+
+The standalone skill package contains:
+
+- `SKILL.md` — Main instructions, capability routing and review principles.
+- `references/` — Supporting engineering and regulatory review guidance.
+- `templates/` — Reusable formats for technical and regulatory deliverables.
+
+The core skill does not require a proprietary ROGEX platform.
+
+Its ability to inspect repositories, retrieve legal sources or produce files depends on the connected AI host and its available tools.
+
+## Important limitations
 
 ROGEX Regulatory Skill provides engineering and regulatory decision support.
 
-It does not:
+It does not provide legal certification, formal conformity assessment, deployment authorization or a guarantee of compliance.
 
-- Provide binding legal advice.
-- Certify regulatory compliance.
-- Replace a formal conformity assessment.
-- Guarantee that every applicable regulation has been identified.
-- Independently verify every technical or legal claim.
-- Authorize deployment or operational use.
-- Automatically monitor legislative changes.
+Legal conclusions depend on the facts supplied, the available evidence, current official sources and, where necessary, qualified legal review.
 
-Regulatory assessments may require additional technical evidence, current official-source verification and qualified legal review.
+The skill does not automatically monitor legislative changes or maintain a continuously verified legal database.
 
-**Version 0.1.0-experimental** is an early public distribution. Existing scenario evaluations do not establish comprehensive legal correctness, production reliability or cross-platform equivalence.
+**Current release: 0.1.0-experimental.** Behavioral evaluations have been performed in Codex, but comprehensive legal correctness, production reliability and cross-host equivalence have not been established.
 
 ## Project information
 
-| Specification | Value |
-|---|---|
-| **Name** | ROGEX Regulatory Skill |
-| **Type** | AI Agent Skill |
-| **Regulatory Focus** | EU AI Act |
-| **Capabilities** | Analyze, Design, Improve, Document, Regulatory Review |
-| **Format** | Agent Skills |
-| **AI Processing** | Host AI Assistant |
-| **Distribution** | Standalone Skill Folder / ZIP |
-| **Version** | 0.1.0-experimental |
-| **Human Oversight** | Required for consequential regulatory decisions |
-| **License** | Pending authorization |
-
-## License
-
-The public distribution license has not yet been selected. No open-source license is granted by this README alone.
+**Product:** ROGEX Regulatory Skill  
+**Focus:** EU AI Act, Responsible AI Engineering  
+**Format:** Agent Skills  
+**Version:** 0.1.0-experimental  
+**License:** Pending authorization
 
 ## About ROGEX AI
 
-**ROGEX AI** develops applied AI and intelligent systems for industrial, healthcare and digital operations.
+[ROGEX AI](https://rogexai.tech) develops applied AI and intelligent systems for industrial, healthcare and digital operations.
 
-Our approach combines practical engineering, responsible AI and human oversight to create systems that address real operational needs.
+We focus on practical implementation, responsible engineering, measurable results and human oversight.
 
 **Website:** [rogexai.tech](https://rogexai.tech)
-
----
-
-*Developed by ROGEX AI · Intelligent Systems & Responsible AI*
